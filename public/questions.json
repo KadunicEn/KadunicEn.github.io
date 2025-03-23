@@ -1,0 +1,135 @@
+{
+  "categories": [
+    {
+      "name": "Science",
+      "questions": [
+        {
+          "question": "What is H2O?",
+          "value": 100
+        },
+        {
+          "question": "What is the chemical symbol for water?",
+          "value": 200
+        },
+        {
+          "question": "What is the atomic number for oxygen?",
+          "value": 300,
+          "type": "audio",
+          "mediaUrl": "media/exampleAudio.mp3"
+        },
+        {
+          "question": "What is the atomic number for hydrogen?",
+          "value": 400
+        },
+        {
+          "question": "What is the atomic number for carbon?",
+          "value": 500,
+          "type": "picture",
+          "mediaUrl": "media/examplePic.jpg"
+        }
+      ]
+    },
+    {
+      "name": "History",
+      "questions": [
+        {
+          "question": "Who was the first president?",
+          "value": 100
+        },
+        {
+          "question": "Who was the second president?",
+          "value": 200
+        },
+        {
+          "question": "Who was the third president?",
+          "value": 300
+        },
+        {
+          "question": "Who was the fourth president?",
+          "value": 400,
+          "type": "video",
+          "mediaUrl": "media/exampleVideo.mp4"
+        },
+        {
+          "question": "Who was the fifth president?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "Math",
+      "questions": [
+        {
+          "question": "What is 1 + 1?",
+          "value": 100
+        },
+        {
+          "question": "What is 2 + 2?",
+          "value": 200
+        },
+        {
+          "question": "What is 3 + 3?",
+          "value": 300
+        },
+        {
+          "question": "What is 4 + 4?",
+          "value": 400
+        },
+        {
+          "question": "What is 5 + 5?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "Literature",
+      "questions": [
+        {
+          "question": "Who wrote 'The Great Gatsby'?",
+          "value": 100
+        },
+        {
+          "question": "Who wrote 'To Kill a Mockingbird'?",
+          "value": 200
+        },
+        {
+          "question": "Who wrote '1984'?",
+          "value": 300
+        },
+        {
+          "question": "Who wrote 'Moby Dick'?",
+          "value": 400
+        },
+        {
+          "question": "Who wrote 'Pride and Prejudice'?",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "Geography",
+      "questions": [
+        {
+          "question": "What is the capital of France?",
+          "value": 100
+        },
+        {
+          "question": "What is the largest desert in the world?",
+          "value": 200
+        },
+        {
+          "question": "Which country has the most population?",
+          "value": 300
+        },
+        {
+          "question": "What is the longest river in the world?",
+          "value": 400
+        },
+        {
+          "question": "What is the highest mountain in the world?",
+          "value": 500
+        }
+      ]
+    }
+  ]
+}
