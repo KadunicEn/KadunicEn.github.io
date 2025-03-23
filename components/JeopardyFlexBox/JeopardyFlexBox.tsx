@@ -1,10 +1,11 @@
 /* eslint-disable jsx-a11y/media-has-caption */
-import { useEffect, useState } from 'react'
 import { Button, Container, Grid, Modal, Paper, Text, Title } from '@mantine/core'
 import { useHotkeys } from '@mantine/hooks'
+import { useEffect, useState } from 'react'
 
 interface Question {
   question: string
+  category: string
   value: number
   type?: 'audio' | 'picture' | 'video'
   mediaUrl?: string
@@ -161,7 +162,7 @@ export default function JeopardyGrid() {
           ))}
         </Grid>
 
-        <Modal opened={opened} onClose={() => setOpened(false)} title="Question" centered>
+        <Modal opened={opened} onClose={() => setOpened(false)} title={selectedQuestion.category} centered>
           <Text>{selectedQuestion?.question}</Text>
           {selectedQuestion && renderMediaContent(selectedQuestion)}
         </Modal>

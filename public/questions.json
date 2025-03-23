@@ -5,30 +5,35 @@
       "questions": [
         {
           "question": "Aus welchem Song stammt dieses Meme?",
+          "category": "What do you Meme?",
           "type": "picture",
           "mediaUrl": "media/meme1.jpg",
           "value": 100
         },
         {
           "question": "Was hat er in seinem Stutzen?",
+          "category": "What do you Meme?",
           "type": "picture",
           "mediaUrl": "media/meme2.jpg",
           "value": 200
         },
         {
           "question": "Wer spricht hier?",
+          "category": "What do you Meme?",
           "value": 300,
           "type": "audio",
           "mediaUrl": "media/meme3.mp3"
         },
         {
           "question": "Was wurde ihm angetan?",
+          "category": "What do you Meme?",
           "type": "video",
           "mediaUrl": "media/meme4.mp4",
           "value": 400
         },
         {
           "question": "Wie heißen die Kinder von Silvia Wollny?",
+          "category": "What do you Meme?",
           "value": 500
         }
       ]
@@ -38,24 +43,29 @@
       "questions": [
         {
           "question": "Who was the first president?",
+          "category": "Das hatten wir in der Schule!",
           "value": 100
         },
         {
           "question": "Who was the second president?",
+          "category": "Das hatten wir in der Schule!",
           "value": 200
         },
         {
           "question": "Who was the third president?",
+          "category": "Das hatten wir in der Schule!",
           "value": 300
         },
         {
           "question": "Who was the fourth president?",
+          "category": "Das hatten wir in der Schule!",
           "value": 400,
           "type": "video",
           "mediaUrl": "media/exampleVideo.mp4"
         },
         {
           "question": "Who was the fifth president?",
+          "category": "Das hatten wir in der Schule!",
           "value": 500
         }
       ]
@@ -65,22 +75,27 @@
       "questions": [
         {
           "question": "What is 1 + 1?",
+          "category": "Let it Pop(kultur)!",
           "value": 100
         },
         {
           "question": "What is 2 + 2?",
+          "category": "Let it Pop(kultur)!",
           "value": 200
         },
         {
           "question": "What is 3 + 3?",
+          "category": "Let it Pop(kultur)!",
           "value": 300
         },
         {
           "question": "What is 4 + 4?",
+          "category": "Let it Pop(kultur)!",
           "value": 400
         },
         {
           "question": "What is 5 + 5?",
+          "category": "Let it Pop(kultur)!",
           "value": 500
         }
       ]
@@ -90,22 +105,27 @@
       "questions": [
         {
           "question": "Who wrote 'The Great Gatsby'?",
+          "category": "Was laberst du?",
           "value": 100
         },
         {
           "question": "Who wrote 'To Kill a Mockingbird'?",
+          "category": "Was laberst du?",
           "value": 200
         },
         {
           "question": "Who wrote '1984'?",
+          "category": "Was laberst du?",
           "value": 300
         },
         {
           "question": "Who wrote 'Moby Dick'?",
+          "category": "Was laberst du?",
           "value": 400
         },
         {
           "question": "Who wrote 'Pride and Prejudice'?",
+          "category": "Was laberst du?",
           "value": 500
         }
       ]
@@ -115,22 +135,27 @@
       "questions": [
         {
           "question": "What is the capital of France?",
+          "category": "Einstein oder ein Stein",
           "value": 100
         },
         {
           "question": "What is the largest desert in the world?",
+          "category": "Einstein oder ein Stein",
           "value": 200
         },
         {
           "question": "Which country has the most population?",
+          "category": "Einstein oder ein Stein",
           "value": 300
         },
         {
           "question": "What is the longest river in the world?",
+          "category": "Einstein oder ein Stein",
           "value": 400
         },
         {
           "question": "What is the highest mountain in the world?",
+          "category": "Einstein oder ein Stein",
           "value": 500
         }
       ]
