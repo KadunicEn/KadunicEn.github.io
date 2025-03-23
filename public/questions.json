@@ -1,36 +1,40 @@
 {
   "categories": [
     {
-      "name": "Science",
+      "name": "What do you Meme?",
       "questions": [
         {
-          "question": "What is H2O?",
+          "question": "Aus welchem Song stammt dieses Meme?",
+          "type": "picture",
+          "mediaUrl": "media/meme1.jpg",
           "value": 100
         },
         {
-          "question": "What is the chemical symbol for water?",
+          "question": "Was hat er in seinem Stutzen?",
+          "type": "picture",
+          "mediaUrl": "media/meme2.jpg",
           "value": 200
         },
         {
-          "question": "What is the atomic number for oxygen?",
+          "question": "Wer spricht hier?",
           "value": 300,
           "type": "audio",
-          "mediaUrl": "media/exampleAudio.mp3"
+          "mediaUrl": "media/meme3.mp3"
         },
         {
-          "question": "What is the atomic number for hydrogen?",
+          "question": "Was wurde ihm angetan?",
+          "type": "video",
+          "mediaUrl": "media/meme4.mp4",
           "value": 400
         },
         {
-          "question": "What is the atomic number for carbon?",
-          "value": 500,
-          "type": "picture",
-          "mediaUrl": "media/examplePic.jpg"
+          "question": "Wie heißen die Kinder von Silvia Wollny?",
+          "value": 500
         }
       ]
     },
     {
-      "name": "History",
+      "name": "Das hatten wir doch in der Schule!",
       "questions": [
         {
           "question": "Who was the first president?",
@@ -57,7 +61,7 @@
       ]
     },
     {
-      "name": "Math",
+      "name": "Let it Pop(kultur)!",
       "questions": [
         {
           "question": "What is 1 + 1?",
@@ -82,7 +86,7 @@
       ]
     },
     {
-      "name": "Literature",
+      "name": "Was laberst du?",
       "questions": [
         {
           "question": "Who wrote 'The Great Gatsby'?",
@@ -107,7 +111,7 @@
       ]
     },
     {
-      "name": "Geography",
+      "name": "Einstein oder ein Stein",
       "questions": [
         {
           "question": "What is the capital of France?",
