@@ -109,8 +109,6 @@ export default function JeopardyGrid() {
         }}
       >
         <Grid align="center" justify="center" style={{ marginBottom: '20px' }}>
-          {' '}
-          {/* Add margin to separate from the grid */}
           <Grid.Col
             span={12}
             style={{
