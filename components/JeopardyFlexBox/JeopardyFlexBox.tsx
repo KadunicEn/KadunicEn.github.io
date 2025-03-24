@@ -199,7 +199,7 @@ export default function JeopardyGrid() {
         <Modal
           opened={opened}
           onClose={() => setOpened(false)}
-          title={selectedQuestion?.question.category}
+          title={`${selectedQuestion?.question.category} - ${selectedQuestion?.question.value}`}
           centered
         >
           <Text>{selectedQuestion?.question.question}</Text>
