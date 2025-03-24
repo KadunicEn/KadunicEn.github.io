@@ -1,7 +1,16 @@
-/* eslint-disable jsx-a11y/media-has-caption */
-import { Button, Container, Grid, Modal, Paper, Text, Title } from '@mantine/core'
-import { useHotkeys } from '@mantine/hooks'
 import { useEffect, useState } from 'react'
+import {
+  Button,
+  ButtonGroup,
+  Container,
+  Grid,
+  Modal,
+  Paper,
+  Text,
+  Title,
+  useMantineColorScheme
+} from '@mantine/core'
+import { useHotkeys } from '@mantine/hooks'
 
 interface Question {
   question: string
@@ -9,6 +18,7 @@ interface Question {
   value: number
   type?: 'audio' | 'picture' | 'video'
   mediaUrl?: string
+  solution?: string
 }
 
 interface Category {
@@ -17,17 +27,38 @@ interface Category {
 }
 
 export default function JeopardyGrid() {
+  const { setColorScheme } = useMantineColorScheme()
   const [categories, setCategories] = useState<Category[]>([])
   const [opened, setOpened] = useState(false)
-  const [selectedQuestion, setSelectedQuestion] = useState<Question | null>(null)
-  const [hoveredQuestionIndex, setHoveredQuestionIndex] = useState<{
+  const [selectedQuestion, setSelectedQuestion] = useState<{
+    question: Question
     categoryIndex: number
     questionIndex: number
   } | null>(null)
+  const [questionColors, setQuestionColors] = useState<{ [key: string]: string }>({})
+  const [teamScores, setTeamScores] = useState<{ [team: string]: number }>({
+    red: 0,
+    green: 0,
+    blue: 0
+  })
+  const [showSolution, setShowSolution] = useState(false)
 
-  const handlePaperClick = (question: Question) => {
-    setSelectedQuestion(question)
+  const handlePaperClick = (question: Question, categoryIndex: number, questionIndex: number) => {
+    setSelectedQuestion({ question, categoryIndex, questionIndex })
+    setShowSolution(false)
     setOpened(true)
+  }
+
+  const handleButtonClick = (color: string) => {
+    if (selectedQuestion) {
+      const key = `${selectedQuestion.categoryIndex}-${selectedQuestion.questionIndex}`
+      setQuestionColors((prevColors) => ({ ...prevColors, [key]: color }))
+      setTeamScores((prevScores) => ({
+        ...prevScores,
+        [color]: prevScores[color] + selectedQuestion.question.value
+      }))
+      setOpened(false)
+    }
   }
 
   const renderMediaContent = (question: Question) => {
@@ -61,6 +92,7 @@ export default function JeopardyGrid() {
   useHotkeys([['mod+ö', () => new Audio('/media/winner.mp3').play()]])
 
   useEffect(() => {
+    setColorScheme('dark')
     fetch('/questions.json')
       .then((res) => res.json())
       .then((data) => setCategories(data.categories))
@@ -102,6 +134,11 @@ export default function JeopardyGrid() {
             <Title order={1} style={{ textAlign: 'center' }}>
               Quizshow Stumic
             </Title>
+            <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
+              <Text color="red">Team Rot: {teamScores.red}</Text>
+              <Text color="green">Team Grün: {teamScores.green}</Text>
+              <Text color="blue">Team Blau: {teamScores.blue}</Text>
+            </div>
           </Grid.Col>
         </Grid>
         <Grid align="center" justify="center">
@@ -130,41 +167,67 @@ export default function JeopardyGrid() {
         <Grid align="center" justify="center">
           {categories.map((category, categoryIndex) => (
             <Grid.Col key={categoryIndex} span={2}>
-              {category.questions.map((question, questionIndex) => (
-                <Paper
-                  key={questionIndex}
-                  shadow="xs"
-                  p="md"
-                  withBorder
-                  style={{
-                    textAlign: 'center',
-                    marginBottom: '10px',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    height: '100%',
-                    transition: 'background-color 0.2s ease-in-out',
-                    backgroundColor:
-                      hoveredQuestionIndex?.categoryIndex === categoryIndex &&
-                      hoveredQuestionIndex?.questionIndex === questionIndex
-                        ? '#2a2a2a'
-                        : '#242424'
-                  }}
-                  onClick={() => handlePaperClick(question)}
-                  onMouseEnter={() => setHoveredQuestionIndex({ categoryIndex, questionIndex })}
-                  onMouseLeave={() => setHoveredQuestionIndex(null)}
-                >
-                  <p>{`${question.value}`}</p>
-                </Paper>
-              ))}
+              {category.questions.map((question, questionIndex) => {
+                const key = `${categoryIndex}-${questionIndex}`
+                return (
+                  <Paper
+                    key={questionIndex}
+                    shadow="xs"
+                    p="md"
+                    withBorder
+                    style={{
+                      textAlign: 'center',
+                      marginBottom: '10px',
+                      cursor: 'pointer',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      height: '100%',
+                      transition: 'background-color 0.2s ease-in-out',
+                      backgroundColor: questionColors[key] || '#242424'
+                    }}
+                    onClick={() => handlePaperClick(question, categoryIndex, questionIndex)}
+                  >
+                    <p>{`${question.value}`}</p>
+                  </Paper>
+                )
+              })}
             </Grid.Col>
           ))}
         </Grid>
 
-        <Modal opened={opened} onClose={() => setOpened(false)} title={selectedQuestion.category} centered>
-          <Text>{selectedQuestion?.question}</Text>
-          {selectedQuestion && renderMediaContent(selectedQuestion)}
+        <Modal
+          opened={opened}
+          onClose={() => setOpened(false)}
+          title={selectedQuestion?.question.category}
+          centered
+        >
+          <Text>{selectedQuestion?.question.question}</Text>
+          {selectedQuestion && renderMediaContent(selectedQuestion.question)}
+          {!showSolution && (
+            <Button
+              style={{ display: 'block', margin: '10px auto' }}
+              onClick={() => setShowSolution(true)}
+            >
+              Lösung
+            </Button>
+          )}
+          {showSolution && (
+            <Text style={{ marginTop: '10px', textAlign: 'center' }}>
+              {selectedQuestion?.question.solution}
+            </Text>
+          )}
+          <ButtonGroup mt={10} style={{ display: 'flex', justifyContent: 'center' }}>
+            <Button bg="red" onClick={() => handleButtonClick('red')}>
+              Team Rot
+            </Button>
+            <Button bg="green" onClick={() => handleButtonClick('green')}>
+              Team Grün
+            </Button>
+            <Button bg="blue" onClick={() => handleButtonClick('blue')}>
+              Team Blau
+            </Button>
+          </ButtonGroup>
         </Modal>
       </Container>
     </>

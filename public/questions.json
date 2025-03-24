@@ -7,6 +7,7 @@
           "question": "Aus welchem Song stammt dieses Meme?",
           "category": "What do you Meme?",
           "type": "picture",
+          "solution": "Hotline Bling - Drake",
           "mediaUrl": "media/meme1.jpg",
           "value": 100
         },
@@ -15,6 +16,7 @@
           "category": "What do you Meme?",
           "type": "picture",
           "mediaUrl": "media/meme2.jpg",
+          "solution": "Zigaretten",
           "value": 200
         },
         {
@@ -22,52 +24,58 @@
           "category": "What do you Meme?",
           "value": 300,
           "type": "audio",
+          "solution": "Egon Kowalski",
           "mediaUrl": "media/meme3.mp3"
         },
         {
           "question": "Was wurde ihm angetan?",
           "category": "What do you Meme?",
           "type": "video",
+          "solution": "Jemand hat vor sein Haus uriniert",
           "mediaUrl": "media/meme4.mp4",
           "value": 400
         },
         {
           "question": "Wie heißen die Kinder von Silvia Wollny?",
           "category": "What do you Meme?",
+          "solution": "Lavinia, Calantha, Sarafina, Estefania, Loredana, Sylvana, Sarafina, Jeremy-Pascal, Alessia, Florian, Sarah-Jane",
           "value": 500
         }
       ]
     },
     {
-      "name": "Das hatten wir doch in der Schule!",
+      "name": "Das ist Schulwissen!",
       "questions": [
         {
           "question": "Was haben diese Begriffe gemeinsam?",
-          "category": "Das hatten wir in der Schule!",
+          "category": "Das ist Schulwissen!",
+          "solution": "Sie sind alle Verben",
           "value": 100
         },
         {
           "question": "Wie viel Grad hat Winkel Alpha?",
-          "category": "Das hatten wir in der Schule!",
+          "category": "Das ist Schulwissen!",
           "type": "picture",
           "mediaUrl": "media/school2.jpg",
           "value": 200
         },
         {
           "question": "Wer kann in 30 Sekunden mehr Shakespeare Werke aufzählen?",
-          "category": "Das hatten wir in der Schule!",
+          "category": "Das ist Schulwissen!",
+          "solution": "Hamlet, Macbeth, Othello, King Lear, Romeo and Juliet, Julius Caesar, The Tempest, A Midsummer Night's Dream, Much Ado About Nothing, The Merchant of Venice",
           "value": 300
         },
         {
           "question": "Wieso ist der erste Weltkrieg ausgebrochen?",
-          "category": "Das hatten wir in der Schule!",
+          "category": "Das ist Schulwissen!",
+          "solution": "Weil der österreichische Thronfolger Franz Ferdinand und seine Frau Sophie in Sarajevo ermordet wurden",
           "value": 400,
           "type": "video",
           "mediaUrl": "media/exampleVideo.mp4"
         },
         {
           "question": "Bearbeite das Arbeitsblatt für Siebtklässler",
-          "category": "Das hatten wir in der Schule!",
+          "category": "Das ist Schulwissen!",
           "value": 500
         }
       ]
