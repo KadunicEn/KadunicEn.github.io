@@ -42,29 +42,31 @@
       "name": "Das hatten wir doch in der Schule!",
       "questions": [
         {
-          "question": "Who was the first president?",
+          "question": "Was haben diese Begriffe gemeinsam?",
           "category": "Das hatten wir in der Schule!",
           "value": 100
         },
         {
-          "question": "Who was the second president?",
+          "question": "Wie viel Grad hat Winkel Alpha?",
           "category": "Das hatten wir in der Schule!",
+          "type": "picture",
+          "mediaUrl": "media/school2.jpg",
           "value": 200
         },
         {
-          "question": "Who was the third president?",
+          "question": "Wer kann in 30 Sekunden mehr Shakespeare Werke aufzählen?",
           "category": "Das hatten wir in der Schule!",
           "value": 300
         },
         {
-          "question": "Who was the fourth president?",
+          "question": "Wieso ist der erste Weltkrieg ausgebrochen?",
           "category": "Das hatten wir in der Schule!",
           "value": 400,
           "type": "video",
           "mediaUrl": "media/exampleVideo.mp4"
         },
         {
-          "question": "Who was the fifth president?",
+          "question": "Bearbeite das Arbeitsblatt für Siebtklässler",
           "category": "Das hatten wir in der Schule!",
           "value": 500
         }
