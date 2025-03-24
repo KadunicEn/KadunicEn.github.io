@@ -135,9 +135,9 @@ export default function JeopardyGrid() {
               Quizshow Stumic
             </Title>
             <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
-              <Text color="red">Team Rot: {teamScores.red}</Text>
-              <Text color="green">Team Grün: {teamScores.green}</Text>
-              <Text color="blue">Team Blau: {teamScores.blue}</Text>
+              <Text bg="red">Team Rot: {teamScores.red}</Text>
+              <Text bg="green">Team Grün: {teamScores.green}</Text>
+              <Text bg="blue">Team Blau: {teamScores.blue}</Text>
             </div>
           </Grid.Col>
         </Grid>
