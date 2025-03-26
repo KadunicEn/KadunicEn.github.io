@@ -68,7 +68,14 @@ export default function JeopardyGrid() {
 
     switch (question.type) {
       case 'audio':
-        return <Button onClick={() => new Audio(question.mediaUrl).play()}>Play Audio</Button>
+        return (
+          <Button
+            style={{ display: 'flex', justifySelf: 'center' }}
+            onClick={() => new Audio(question.mediaUrl).play()}
+          >
+            Play Audio
+          </Button>
+        )
       case 'picture':
         return (
           <img
@@ -200,9 +207,9 @@ export default function JeopardyGrid() {
           title={`${selectedQuestion?.question.category} - ${selectedQuestion?.question.value}`}
           centered
         >
-          <Text>{selectedQuestion?.question.question}</Text>
+          <Text style={{ textAlign: 'center' }}>{selectedQuestion?.question.question}</Text>
           {selectedQuestion && renderMediaContent(selectedQuestion.question)}
-          {!showSolution && (
+          {!showSolution && selectedQuestion?.question.solution && (
             <Button
               style={{ display: 'block', margin: '10px auto' }}
               onClick={() => setShowSolution(true)}

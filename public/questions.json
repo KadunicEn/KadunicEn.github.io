@@ -38,7 +38,7 @@
         {
           "question": "Wie heißen die Kinder von Silvia Wollny?",
           "category": "What do you Meme?",
-          "solution": "Lavinia, Calantha, Sarafina, Estefania, Loredana, Sylvana, Sarafina, Jeremy-Pascal, Alessia, Florian, Sarah-Jane",
+          "solution": "Lavinia, Calantha, Estefania, Loredana, Sylvana, Sarafina, Jeremy-Pascal, Alessia, Florian, Sarah-Jane",
           "value": 500
         }
       ]
@@ -56,6 +56,7 @@
           "question": "Wie viel Grad hat Winkel Alpha?",
           "category": "Das ist Schulwissen!",
           "type": "picture",
+          "solution": "27°",
           "mediaUrl": "media/school2.jpg",
           "value": 200
         },
@@ -69,9 +70,7 @@
           "question": "Wieso ist der erste Weltkrieg ausgebrochen?",
           "category": "Das ist Schulwissen!",
           "solution": "Weil der österreichische Thronfolger Franz Ferdinand und seine Frau Sophie in Sarajevo ermordet wurden",
-          "value": 400,
-          "type": "video",
-          "mediaUrl": "media/exampleVideo.mp4"
+          "value": 400
         },
         {
           "question": "Bearbeite das Arbeitsblatt für Siebtklässler",
@@ -84,58 +83,77 @@
       "name": "Let it Pop(kultur)!",
       "questions": [
         {
-          "question": "What is 1 + 1?",
+          "question": "Wie heißt der Mann von dem sich Kim Kardashian 2022 hat scheiden lassen?",
           "category": "Let it Pop(kultur)!",
+          "solution": "Kanye West oder auch ye",
           "value": 100
         },
         {
-          "question": "What is 2 + 2?",
+          "question": "Aus welcher Hitserie stammt dieser Gegenstand?",
           "category": "Let it Pop(kultur)!",
+          "type": "picture",
+          "solution": "How I Met Your Mother",
+          "mediaUrl": "media/pop2.jpg",
           "value": 200
         },
         {
-          "question": "What is 3 + 3?",
+          "question": "Von welchem Künstler/welcher Küsntlerin stammen folgende Titel?",
+          "solution": "Taylor Swift",
           "category": "Let it Pop(kultur)!",
           "value": 300
         },
         {
-          "question": "What is 4 + 4?",
+          "question": "Aus welcher Reality TV Show stammt dieser Ausschnitt?",
           "category": "Let it Pop(kultur)!",
+          "type": "video",
+          "solution": "Sommerhaus der Stars",
+          "mediaUrl": "media/pop4.mp4",
           "value": 400
         },
         {
-          "question": "What is 5 + 5?",
+          "question": "Welche schauspielende Person hat unter anderem in Game of Thrones, The Last of Us, und Narcos mitgespielt?",
+          "solution": "Pedro Pascal",
           "category": "Let it Pop(kultur)!",
           "value": 500
         }
       ]
     },
     {
-      "name": "Was laberst du?",
+      "name": "Länder und ihre Sitten",
       "questions": [
         {
-          "question": "Who wrote 'The Great Gatsby'?",
-          "category": "Was laberst du?",
+          "question": "Aus welchem Land stammt dieses Straßenschild?",
+          "solution": "Thailand",
+          "type": "picture",
+          "mediaUrl": "media/countries1.jpg",
+          "category": "Länder und ihre Sitten",
           "value": 100
         },
         {
-          "question": "Who wrote 'To Kill a Mockingbird'?",
-          "category": "Was laberst du?",
+          "question": "Wem gehört diese Flagge",
+          "category": "Länder und ihre Sitten",
+          "type": "picture",
+          "solution": "Bulgarien",
+          "mediaUrl": "media/countries2.jpeg",
           "value": 200
         },
         {
-          "question": "Who wrote '1984'?",
-          "category": "Was laberst du?",
+          "question": "Löse das Arbeitsblatt so schnell wie möglich",
+          "category": "Länder und ihre Sitten",
           "value": 300
         },
         {
-          "question": "Who wrote 'Moby Dick'?",
-          "category": "Was laberst du?",
+          "question": "Was meint der Österreicher wenn er Stiegenhaus sagt?",
+          "solution": "Treppenhaus",
+          "category": "Länder und ihre Sitten",
           "value": 400
         },
         {
-          "question": "Who wrote 'Pride and Prejudice'?",
-          "category": "Was laberst du?",
+          "question": "Welche Sprache spricht Denise hier?",
+          "category": "Länder und ihre Sitten",
+          "type": "audio",
+          "mediaUrl": "media/countries5.mp3",
+          "solution": "Ungarisch",
           "value": 500
         }
       ]
@@ -166,6 +184,42 @@
         {
           "question": "What is the highest mountain in the world?",
           "category": "Einstein oder ein Stein",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "Die Stumic-Fragen!",
+      "questions": [
+        {
+          "question": "Schreibe in 30 Sekunden so viele Harry Potter Charaktere wie möglich auf",
+          "category": "Die Stumic-Fragen!",
+          "value": 100
+        },
+        {
+          "question": "Wen muss dieser Held immer wieder retten?",
+          "category": "Die Stumic-Fragen!",
+          "solution": "Zelda",
+          "type": "picture",
+          "mediaUrl": "media/stumic2.jpg",
+          "value": 200
+        },
+        {
+          "question": "Was ist Stumics Lieblingsfarbe?",
+          "category": "Die Stumic-Fragen!",
+          "solution": "Blau",
+          "value": 300
+        },
+        {
+          "question": "Welche Serie verfolgt das Leben folgender Personen?",
+          "category": "Die Stumic-Fragen!",
+          "solution": "Gossip Girl",
+          "value": 400
+        },
+        {
+          "question": "Wann sind die Stumics zusammengekommen? (Genaues Datum)",
+          "category": "Die Stumic-Fragen!",
+          "solution": "01.05.2018",
           "value": 500
         }
       ]
