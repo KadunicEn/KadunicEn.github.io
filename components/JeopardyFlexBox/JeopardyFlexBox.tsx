@@ -67,15 +67,20 @@ export default function JeopardyGrid() {
     }
 
     switch (question.type) {
-      case 'audio':
+      case 'audio': {
+        const audio = new Audio(question.mediaUrl)
         return (
-          <Button
-            style={{ display: 'flex', justifySelf: 'center' }}
-            onClick={() => new Audio(question.mediaUrl).play()}
-          >
-            Play Audio
-          </Button>
+          <ButtonGroup style={{ display: 'flex', justifySelf: 'center' }}>
+            <Button onClick={() => audio.play()}>Play Audio</Button>
+            <Button
+              style={{ display: 'flex', justifySelf: 'center' }}
+              onClick={() => audio.pause()}
+            >
+              Pause Audio
+            </Button>
+          </ButtonGroup>
         )
+      }
       case 'picture':
         return (
           <img

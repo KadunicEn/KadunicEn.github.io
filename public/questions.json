@@ -162,17 +162,24 @@
       "name": "Einstein oder ein Stein",
       "questions": [
         {
-          "question": "What is the capital of France?",
+          "question": "Welcher Rasse gehört dieser Hund an?",
+          "type": "picture",
+          "mediaUrl": "media/einstein1.jpg",
+          "solution": "Yorkshire Terrier",
           "category": "Einstein oder ein Stein",
           "value": 100
         },
         {
-          "question": "What is the largest desert in the world?",
+          "question": "Wie nennt man Regen, Schnee, Graupel und Hagel noch?",
+          "solution": "Niederschlag",
           "category": "Einstein oder ein Stein",
           "value": 200
         },
         {
-          "question": "Which country has the most population?",
+          "question": "Was wird hier geerntet?",
+          "solution": "Rosenkohl",
+          "type": "picture",
+          "mediaUrl": "media/einstein3.jpg",
           "category": "Einstein oder ein Stein",
           "value": 300
         },
@@ -205,9 +212,11 @@
           "value": 200
         },
         {
-          "question": "Was ist Stumics Lieblingsfarbe?",
+          "question": "Gegen wen hat der MSV in diesem historischen Spiel gewonnen?",
           "category": "Die Stumic-Fragen!",
-          "solution": "Blau",
+          "type": "picture",
+          "mediaUrl": "media/stumic3.jpg",
+          "solution": "Holstein Kiel",
           "value": 300
         },
         {
