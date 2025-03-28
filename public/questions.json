@@ -159,39 +159,32 @@
       ]
     },
     {
-      "name": "Einstein oder ein Stein",
+      "name": "Spielkinder",
       "questions": [
         {
-          "question": "Welcher Rasse gehört dieser Hund an?",
-          "type": "picture",
-          "mediaUrl": "media/einstein1.jpg",
-          "solution": "Yorkshire Terrier",
-          "category": "Einstein oder ein Stein",
-          "value": 100
-        },
-        {
-          "question": "Wie nennt man Regen, Schnee, Graupel und Hagel noch?",
-          "solution": "Niederschlag",
-          "category": "Einstein oder ein Stein",
-          "value": 200
-        },
-        {
-          "question": "Was wird hier geerntet?",
-          "solution": "Rosenkohl",
-          "type": "picture",
-          "mediaUrl": "media/einstein3.jpg",
-          "category": "Einstein oder ein Stein",
+          "question": "Sync up! - Wie gut kennt ihr euch?",
+          "category": "Spielkinder",
           "value": 300
         },
         {
-          "question": "What is the longest river in the world?",
-          "category": "Einstein oder ein Stein",
-          "value": 400
+          "question": "Kopfrechnen",
+          "category": "Spielkinder",
+          "value": 300
         },
         {
-          "question": "What is the highest mountain in the world?",
-          "category": "Einstein oder ein Stein",
-          "value": 500
+          "question": "Was ein dicker Schinken!",
+          "category": "Spielkinder",
+          "value": 300
+        },
+        {
+          "question": "Wer bin ich?",
+          "category": "Spielkinder",
+          "value": 300
+        },
+        {
+          "question": "Das kann man laufen",
+          "category": "Spielkinder",
+          "value": 300
         }
       ]
     },
