@@ -9,7 +9,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <MantineProvider theme={theme} defaultColorScheme="dark">
       <Head>
-        <title>Quizshow Stumic</title>
+        <title>Stumic Quizshow</title>
         <meta
           name="viewport"
           content="minimum-scale=1, initial-scale=1, width=device-width, user-scalable=no"

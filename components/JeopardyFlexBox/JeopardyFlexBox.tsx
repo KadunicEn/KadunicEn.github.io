@@ -142,7 +142,7 @@ export default function JeopardyGrid() {
               }}
             />
             <Title order={1} style={{ textAlign: 'center' }}>
-              Quizshow Stumic
+              Stumic Quizshow
             </Title>
             <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
               <Text bg="red">Team Rot: {teamScores.red}</Text>

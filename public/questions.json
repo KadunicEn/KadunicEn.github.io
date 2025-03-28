@@ -159,31 +159,31 @@
       ]
     },
     {
-      "name": "Spielkinder",
+      "name": "Wir sind Spielkinder",
       "questions": [
         {
           "question": "Sync up! - Wie gut kennt ihr euch?",
-          "category": "Spielkinder",
+          "category": "Wir sind Spielkinder",
           "value": 300
         },
         {
           "question": "Kopfrechnen",
-          "category": "Spielkinder",
+          "category": "Wir sind Spielkinder",
           "value": 300
         },
         {
           "question": "Was ein dicker Schinken!",
-          "category": "Spielkinder",
+          "category": "Wir sind Spielkinder",
           "value": 300
         },
         {
           "question": "Wer bin ich?",
-          "category": "Spielkinder",
+          "category": "Wir sind Spielkinder",
           "value": 300
         },
         {
           "question": "Das kann man laufen",
-          "category": "Spielkinder",
+          "category": "Wir sind Spielkinder",
           "value": 300
         }
       ]
