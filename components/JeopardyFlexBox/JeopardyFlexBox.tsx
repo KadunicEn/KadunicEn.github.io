@@ -42,6 +42,9 @@ export default function JeopardyGrid() {
     blue: 0
   })
   const [showSolution, setShowSolution] = useState(false)
+  const teamOne = 'red'
+  const teamTwo = 'green'
+  const teamThree = 'blue'
 
   const handlePaperClick = (question: Question, categoryIndex: number, questionIndex: number) => {
     setSelectedQuestion({ question, categoryIndex, questionIndex })
@@ -52,12 +55,14 @@ export default function JeopardyGrid() {
   const handleButtonClick = (color: string) => {
     if (selectedQuestion) {
       const key = `${selectedQuestion.categoryIndex}-${selectedQuestion.questionIndex}`
-      setQuestionColors((prevColors) => ({ ...prevColors, [key]: color }))
+      setQuestionColors((prevColors) => ({
+        ...prevColors,
+        [key]: '#000000'
+      }))
       setTeamScores((prevScores) => ({
         ...prevScores,
         [color]: prevScores[color] + selectedQuestion.question.value
       }))
-      setOpened(false)
     }
   }
 
@@ -145,9 +150,15 @@ export default function JeopardyGrid() {
               Stumic Quizshow
             </Title>
             <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
-              <Text bg="red">Team Rot: {teamScores.red}</Text>
-              <Text bg="green">Team Grün: {teamScores.green}</Text>
-              <Text bg="blue">Team Blau: {teamScores.blue}</Text>
+              <Text bg="red">
+                {teamOne}: {teamScores.red}
+              </Text>
+              <Text bg="green">
+                {teamTwo}: {teamScores.green}
+              </Text>
+              <Text bg="blue">
+                {teamThree}: {teamScores.blue}
+              </Text>
             </div>
           </Grid.Col>
         </Grid>
@@ -197,6 +208,10 @@ export default function JeopardyGrid() {
                       backgroundColor: questionColors[key] || '#242424'
                     }}
                     onClick={() => handlePaperClick(question, categoryIndex, questionIndex)}
+                    onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#1a1a1a')}
+                    onMouseLeave={(e) =>
+                      (e.currentTarget.style.backgroundColor = questionColors[key] || '#242424')
+                    }
                   >
                     <p>{`${question.value}`}</p>
                   </Paper>
