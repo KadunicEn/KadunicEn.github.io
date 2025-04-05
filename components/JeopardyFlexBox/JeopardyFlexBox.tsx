@@ -42,9 +42,9 @@ export default function JeopardyGrid() {
     blue: 0
   })
   const [showSolution, setShowSolution] = useState(false)
-  const teamOne = 'red'
-  const teamTwo = 'green'
-  const teamThree = 'blue'
+  const teamOne = 'Die Betzens'
+  const teamTwo = 'Die Scheras'
+  // const teamThree = 'Sidechicks'
 
   const handlePaperClick = (question: Question, categoryIndex: number, questionIndex: number) => {
     setSelectedQuestion({ question, categoryIndex, questionIndex })
@@ -135,7 +135,7 @@ export default function JeopardyGrid() {
               flexDirection: 'column'
             }}
           >
-            <img
+            {/* <img
               src="/media/logo.jpg"
               alt="Logo"
               style={{
@@ -145,7 +145,7 @@ export default function JeopardyGrid() {
                 maxWidth: '300px',
                 borderRadius: '100%'
               }}
-            />
+            /> */}
             <Title order={1} style={{ textAlign: 'center' }}>
               Stumic Quizshow
             </Title>
@@ -156,9 +156,9 @@ export default function JeopardyGrid() {
               <Text bg="green">
                 {teamTwo}: {teamScores.green}
               </Text>
-              <Text bg="blue">
+              {/* <Text bg="blue">
                 {teamThree}: {teamScores.blue}
-              </Text>
+              </Text> */}
             </div>
           </Grid.Col>
         </Grid>
@@ -244,13 +244,13 @@ export default function JeopardyGrid() {
           )}
           <ButtonGroup mt={10} style={{ display: 'flex', justifyContent: 'center' }}>
             <Button bg="red" onClick={() => handleButtonClick('red')}>
-              Team Rot
+              {teamOne}
             </Button>
             <Button bg="green" onClick={() => handleButtonClick('green')}>
-              Team Grün
+              {teamTwo}
             </Button>
             <Button bg="blue" onClick={() => handleButtonClick('blue')}>
-              Team Blau
+              Keine Punkte
             </Button>
           </ButtonGroup>
         </Modal>

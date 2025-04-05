@@ -97,7 +97,7 @@
           "value": 200
         },
         {
-          "question": "Von welchem Künstler/welcher Küsntlerin stammen folgende Titel?",
+          "question": "Von welchem Künstler/welcher Künstlerin stammen folgende Titel?",
           "solution": "Taylor Swift",
           "category": "Let it Pop(kultur)!",
           "value": 300
@@ -111,8 +111,10 @@
           "value": 400
         },
         {
-          "question": "Welche schauspielende Person hat unter anderem in Game of Thrones, The Last of Us, und Narcos mitgespielt?",
-          "solution": "Pedro Pascal",
+          "question": "Mit welcher Serie wurde diese Person berühmt?",
+          "type": "picture",
+          "mediaUrl": "media/pop5.jpg",
+          "solution": "Drake & Josh",
           "category": "Let it Pop(kultur)!",
           "value": 500
         }
@@ -205,11 +207,9 @@
           "value": 200
         },
         {
-          "question": "Gegen wen hat der MSV in diesem historischen Spiel gewonnen?",
+          "question": "Zähle die aktuellen Bundesliga-Vereine auf (1. Liga)",
           "category": "Die Stumic-Fragen!",
-          "type": "picture",
-          "mediaUrl": "media/stumic3.jpg",
-          "solution": "Holstein Kiel",
+          "solution": "Bayern München, Bayer Leverkusen, Eintracht Frankfurt, FSV Mainz 05, Borussia Mönchengladbach, RB Leipzig, SC Freiurg, FC Augsburg, Vfl Wolfsburg, Borussia Dortmund, VfB Stuttgart, Werder Bremen, 1. FC Union Berlin, TSG Hoffenheim, FC St. Pauli, 1. FC Heidenheim, VfL Bochum, Holstein Kiel",
           "value": 300
         },
         {
