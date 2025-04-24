@@ -1,19 +1,19 @@
 {
   "categories": [
     {
-      "name": "What do you Meme?",
+      "name": "Lecki Schmecki",
       "questions": [
         {
-          "question": "Aus welchem Song stammt dieses Meme?",
-          "category": "What do you Meme?",
-          "type": "picture",
-          "solution": "Hotline Bling - Drake",
+          "category": "Lecki Schmecki",
           "mediaUrl": "media/meme1.jpg",
+          "question": "Aus welchem Song stammt dieses Meme?",
+          "solution": "Hotline Bling - Drake",
+          "type": "picture",
           "value": 100
         },
         {
           "question": "Was hat er in seinem Stutzen?",
-          "category": "What do you Meme?",
+          "category": "Lecki Schmecki",
           "type": "picture",
           "mediaUrl": "media/meme2.jpg",
           "solution": "Zigaretten",
@@ -21,7 +21,7 @@
         },
         {
           "question": "Wer spricht hier?",
-          "category": "What do you Meme?",
+          "category": "Lecki Schmecki",
           "value": 300,
           "type": "audio",
           "solution": "Egon Kowalski",
@@ -29,7 +29,7 @@
         },
         {
           "question": "Was wurde ihm angetan?",
-          "category": "What do you Meme?",
+          "category": "Lecki Schmecki",
           "type": "video",
           "solution": "Jemand hat vor sein Haus uriniert",
           "mediaUrl": "media/meme4.mp4",
@@ -37,7 +37,7 @@
         },
         {
           "question": "Wie heißen die Kinder von Silvia Wollny?",
-          "category": "What do you Meme?",
+          "category": "Lecki Schmecki",
           "solution": "Lavinia, Calantha, Estefania, Loredana, Sylvana, Sarafina, Jeremy-Pascal, Alessia, Florian, Sarah-Jane",
           "value": 500
         }
