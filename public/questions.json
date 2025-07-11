@@ -1,161 +1,166 @@
 {
   "categories": [
     {
-      "name": "What do you Meme?",
+      "name": "Schmackofatz",
       "questions": [
         {
-          "question": "Aus welchem Song stammt dieses Meme?",
-          "category": "What do you Meme?",
-          "type": "picture",
-          "solution": "Hotline Bling - Drake",
-          "mediaUrl": "media/meme1.jpg",
+          "question": "Was kann Sauerteig ersetzen?",
+          "category": "Schmackofatz",
+          "solution": "Hefe",
           "value": 100
         },
         {
-          "question": "Was hat er in seinem Stutzen?",
-          "category": "What do you Meme?",
+          "question": "Wie heißt dieses Gericht?",
+          "category": "Schmackofatz",
           "type": "picture",
-          "mediaUrl": "media/meme2.jpg",
-          "solution": "Zigaretten",
+          "mediaUrl": "media/food2.jpg",
+          "solution": "Beef Wellington",
           "value": 200
         },
         {
-          "question": "Wer spricht hier?",
-          "category": "What do you Meme?",
+          "question": "Welcher der folgenden Zutaten gehört nicht in eine klassische Moussaka? Kartfoffeln, Auberginen, Bechamelsauce, Zucchini, Hackfleisch",
+          "category": "Schmackofatz",
           "value": 300,
-          "type": "audio",
-          "solution": "Egon Kowalski",
-          "mediaUrl": "media/meme3.mp3"
+          "solution": "Zucchini"
         },
         {
-          "question": "Was wurde ihm angetan?",
-          "category": "What do you Meme?",
+          "question": "Für welches Nationalgericht braucht man folgende Zutaten?",
+          "category": "Schmackofatz",
+          "type": "picture",
+          "solution": "Pad Thai",
+          "mediaUrl": "media/food4.jpg",
+          "value": 400
+        },
+        {
+          "question": "Was wird hier zubereitet?",
+          "category": "Schmackofatz",
           "type": "video",
-          "solution": "Jemand hat vor sein Haus uriniert",
-          "mediaUrl": "media/meme4.mp4",
-          "value": 400
-        },
-        {
-          "question": "Wie heißen die Kinder von Silvia Wollny?",
-          "category": "What do you Meme?",
-          "solution": "Lavinia, Calantha, Estefania, Loredana, Sylvana, Sarafina, Jeremy-Pascal, Alessia, Florian, Sarah-Jane",
+          "mediaUrl": "media/food5.mp4",
+          "solution": "Burek",
           "value": 500
         }
       ]
     },
     {
-      "name": "Das ist Schulwissen!",
+      "name": "Kindheitshelden",
       "questions": [
         {
-          "question": "Was haben diese Begriffe gemeinsam?",
-          "category": "Das ist Schulwissen!",
-          "solution": "Sie sind alle Verben",
+          "question": "Was war sein Kommunikationsmittel mit seiner Familie?",
+          "type": "picture",
+          "mediaUrl": "media/childhood1.jpg",
+          "category": "Kindheitshelden",
+          "solution": "Briefe",
           "value": 100
         },
         {
-          "question": "Wie viel Grad hat Winkel Alpha?",
-          "category": "Das ist Schulwissen!",
-          "type": "picture",
-          "solution": "27°",
-          "mediaUrl": "media/school2.jpg",
-          "value": 200
-        },
-        {
-          "question": "Wer kann in 30 Sekunden mehr Shakespeare Werke aufzählen?",
-          "category": "Das ist Schulwissen!",
-          "solution": "Hamlet, Macbeth, Othello, King Lear, Romeo and Juliet, Julius Caesar, The Tempest, A Midsummer Night's Dream, Much Ado About Nothing, The Merchant of Venice",
-          "value": 300
-        },
-        {
-          "question": "Wieso ist der erste Weltkrieg ausgebrochen?",
-          "category": "Das ist Schulwissen!",
-          "solution": "Weil der österreichische Thronfolger Franz Ferdinand und seine Frau Sophie in Sarajevo ermordet wurden",
-          "value": 400
-        },
-        {
-          "question": "Bearbeite das Arbeitsblatt für Siebtklässler",
-          "category": "Das ist Schulwissen!",
-          "value": 500
-        }
-      ]
-    },
-    {
-      "name": "Let it Pop(kultur)!",
-      "questions": [
-        {
-          "question": "Wie heißt der Mann von dem sich Kim Kardashian 2022 hat scheiden lassen?",
-          "category": "Let it Pop(kultur)!",
-          "solution": "Kanye West oder auch ye",
-          "value": 100
-        },
-        {
-          "question": "Aus welcher Hitserie stammt dieser Gegenstand?",
-          "category": "Let it Pop(kultur)!",
-          "type": "picture",
-          "solution": "How I Met Your Mother",
-          "mediaUrl": "media/pop2.jpg",
-          "value": 200
-        },
-        {
-          "question": "Von welchem Künstler/welcher Künstlerin stammen folgende Titel?",
-          "solution": "Taylor Swift",
-          "category": "Let it Pop(kultur)!",
-          "value": 300
-        },
-        {
-          "question": "Aus welcher Reality TV Show stammt dieser Ausschnitt?",
-          "category": "Let it Pop(kultur)!",
-          "type": "video",
-          "solution": "Sommerhaus der Stars",
-          "mediaUrl": "media/pop4.mp4",
-          "value": 400
-        },
-        {
-          "question": "Mit welcher Serie wurde diese Person berühmt?",
-          "type": "picture",
-          "mediaUrl": "media/pop5.jpg",
-          "solution": "Drake & Josh",
-          "category": "Let it Pop(kultur)!",
-          "value": 500
-        }
-      ]
-    },
-    {
-      "name": "Länder und ihre Sitten",
-      "questions": [
-        {
-          "question": "Aus welchem Land stammt dieses Straßenschild?",
-          "solution": "Thailand",
-          "type": "picture",
-          "mediaUrl": "media/countries1.jpg",
-          "category": "Länder und ihre Sitten",
-          "value": 100
-        },
-        {
-          "question": "Wem gehört diese Flagge",
-          "category": "Länder und ihre Sitten",
-          "type": "picture",
-          "solution": "Bulgarien",
-          "mediaUrl": "media/countries2.jpeg",
-          "value": 200
-        },
-        {
-          "question": "Löse das Arbeitsblatt so schnell wie möglich",
-          "category": "Länder und ihre Sitten",
-          "value": 300
-        },
-        {
-          "question": "Was meint der Österreicher wenn er Stiegenhaus sagt?",
-          "solution": "Treppenhaus",
-          "category": "Länder und ihre Sitten",
-          "value": 400
-        },
-        {
-          "question": "Welche Sprache spricht Denise hier?",
-          "category": "Länder und ihre Sitten",
+          "question": "Aus welcher Serie stammt dieses Intro?",
+          "category": "Kindheitshelden",
           "type": "audio",
-          "mediaUrl": "media/countries5.mp3",
-          "solution": "Ungarisch",
+          "solution": "iCarly",
+          "mediaUrl": "media/childhood2.mp3",
+          "value": 200
+        },
+        {
+          "question": "Was waren Timon und Pumbaa für Tiere? (Reichtige Reihenfolge)",
+          "category": "Kindheitshelden",
+          "solution": "Erdmännchen und Warzenschwein",
+          "value": 300
+        },
+        {
+          "question": "Wie heißt die Stadt in der Benajamin Blümchen seine Abenteuer erlebt?",
+          "category": "Kindheitshelden",
+          "solution": "Neustadt",
+          "value": 400
+        },
+        {
+          "question": "Aus welcher Filmreihe kennt man diese Person?",
+          "type": "picture",
+          "mediaUrl": "media/childhood5.jpg",
+          "solution": "Die wilden Hühner",
+          "category": "Kindheitshelden",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "Only Banger",
+      "questions": [
+        {
+          "question": "Von wem stammt der Hit mit dem Titel 'Espresso'?",
+          "category": "Only Banger",
+          "solution": "Sabrina Carpenter",
+          "value": 100
+        },
+        {
+          "question": "",
+          "category": "Only Banger",
+          "type": "",
+          "solution": "",
+          "mediaUrl": "",
+          "value": 200
+        },
+        {
+          "question": "Von welchem Künstler stammt dieses Album-Cover?",
+          "solution": "Micheal Jackson",
+          "type": "picture",
+          "mediaUrl": "media/music3.jpg",
+          "category": "Only Banger",
+          "value": 300
+        },
+        {
+          "question": "",
+          "category": "Only Banger",
+          "type": "",
+          "solution": "",
+          "mediaUrl": "",
+          "value": 400
+        },
+        {
+          "question": "",
+          "type": "",
+          "mediaUrl": "",
+          "solution": "",
+          "category": "Only Banger",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "",
+      "questions": [
+        {
+          "question": "",
+          "solution": "",
+          "type": "",
+          "mediaUrl": "",
+          "category": "",
+          "value": 100
+        },
+        {
+          "question": "",
+          "category": "",
+          "type": "",
+          "solution": "",
+          "mediaUrl": "",
+          "value": 200
+        },
+        {
+          "question": "",
+          "category": "",
+          "value": 300
+        },
+        {
+          "question": "",
+          "solution": "",
+          "category": "",
+          "value": 400
+        },
+        {
+          "question": "",
+          "category": "",
+          "type": "",
+          "mediaUrl": "",
+          "solution": "",
           "value": 500
         }
       ]
@@ -164,27 +169,27 @@
       "name": "Wir sind Spielkinder",
       "questions": [
         {
-          "question": "Sync up! - Wie gut kennt ihr euch?",
+          "question": "Immer der Nase nach?",
           "category": "Wir sind Spielkinder",
           "value": 300
         },
         {
-          "question": "Kopfrechnen",
+          "question": "Held der Steine",
           "category": "Wir sind Spielkinder",
           "value": 300
         },
         {
-          "question": "Was ein dicker Schinken!",
+          "question": "Ralf Schumacher?!",
           "category": "Wir sind Spielkinder",
           "value": 300
         },
         {
-          "question": "Wer bin ich?",
+          "question": "",
           "category": "Wir sind Spielkinder",
           "value": 300
         },
         {
-          "question": "Das kann man laufen",
+          "question": "",
           "category": "Wir sind Spielkinder",
           "value": 300
         }
@@ -194,34 +199,34 @@
       "name": "Die Stumic-Fragen!",
       "questions": [
         {
-          "question": "Schreibe in 30 Sekunden so viele Harry Potter Charaktere wie möglich auf",
+          "question": "",
           "category": "Die Stumic-Fragen!",
           "value": 100
         },
         {
-          "question": "Wen muss dieser Held immer wieder retten?",
+          "question": "",
           "category": "Die Stumic-Fragen!",
-          "solution": "Zelda",
-          "type": "picture",
-          "mediaUrl": "media/stumic2.jpg",
+          "solution": "",
+          "type": "",
+          "mediaUrl": "",
           "value": 200
         },
         {
-          "question": "Zähle die aktuellen Bundesliga-Vereine auf (1. Liga)",
+          "question": "",
           "category": "Die Stumic-Fragen!",
-          "solution": "Bayern München, Bayer Leverkusen, Eintracht Frankfurt, FSV Mainz 05, Borussia Mönchengladbach, RB Leipzig, SC Freiurg, FC Augsburg, Vfl Wolfsburg, Borussia Dortmund, VfB Stuttgart, Werder Bremen, 1. FC Union Berlin, TSG Hoffenheim, FC St. Pauli, 1. FC Heidenheim, VfL Bochum, Holstein Kiel",
+          "solution": "",
           "value": 300
         },
         {
-          "question": "Welche Serie verfolgt das Leben folgender Personen?",
+          "question": "",
           "category": "Die Stumic-Fragen!",
-          "solution": "Gossip Girl",
+          "solution": "",
           "value": 400
         },
         {
-          "question": "Welcher Städtetrip war Envers Geburtstagsgeschenk im Jahr 2023 von Denise?",
+          "question": "",
           "category": "Die Stumic-Fragen!",
-          "solution": "Amsterdam",
+          "solution": "",
           "value": 500
         }
       ]
