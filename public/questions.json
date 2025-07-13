@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "name": "Schmackofatz",
+      "name": "Das ist Schmackofatz",
       "questions": [
         {
           "question": "Was kann Sauerteig ersetzen?",
@@ -42,7 +42,7 @@
       ]
     },
     {
-      "name": "Kindheitshelden",
+      "name": "Unsere Kindheitshelden",
       "questions": [
         {
           "question": "Was war sein Kommunikationsmittel mit seiner Familie?",
@@ -83,7 +83,7 @@
       ]
     },
     {
-      "name": "Only Banger",
+      "name": "Please don't stop the music",
       "questions": [
         {
           "question": "Von wem stammt der Hit mit dem Titel 'Espresso'?",
@@ -92,11 +92,9 @@
           "value": 100
         },
         {
-          "question": "",
+          "question": "Wie heißt der bekannte Frankfurtert Rapper, der mit Hits wie 'Azzlack Stereotyp' und '069' bekannt wurde?",
           "category": "Only Banger",
-          "type": "",
-          "solution": "",
-          "mediaUrl": "",
+          "solution": "Haftbefehl",
           "value": 200
         },
         {
@@ -108,37 +106,37 @@
           "value": 300
         },
         {
-          "question": "",
+          "question": "Erkenne das Lied/den Künstler anhand des Musikvideos. (Doppelte Punkte möglich)",
           "category": "Only Banger",
-          "type": "",
-          "solution": "",
-          "mediaUrl": "",
+          "type": "video",
+          "solution": "Wheatus - Teenage Dirtbag",
+          "mediaUrl": "media/music4.mp4",
           "value": 400
         },
         {
-          "question": "",
-          "type": "",
-          "mediaUrl": "",
-          "solution": "",
+          "question": "Welches Lied wird hier rückwärts abgespielt?",
+          "type": "audio",
+          "mediaUrl": "media/music5.mp3",
+          "solution": "The Cranberries - Zombie",
           "category": "Only Banger",
           "value": 500
         }
       ]
     },
     {
-      "name": "",
+      "name": "Bio ist für mich Abfall",
       "questions": [
         {
           "question": "",
           "solution": "",
           "type": "",
           "mediaUrl": "",
-          "category": "",
+          "category": "Bio ist für mich Abfall",
           "value": 100
         },
         {
           "question": "",
-          "category": "",
+          "category": "Bio ist für mich Abfall",
           "type": "",
           "solution": "",
           "mediaUrl": "",
@@ -146,18 +144,18 @@
         },
         {
           "question": "",
-          "category": "",
+          "category": "Bio ist für mich Abfall",
           "value": 300
         },
         {
           "question": "",
           "solution": "",
-          "category": "",
+          "category": "Bio ist für mich Abfall",
           "value": 400
         },
         {
           "question": "",
-          "category": "",
+          "category": "Bio ist für mich Abfall",
           "type": "",
           "mediaUrl": "",
           "solution": "",
