@@ -18,7 +18,7 @@
           "value": 200
         },
         {
-          "question": "Welcher der folgenden Zutaten gehört nicht in eine klassische Moussaka? Kartfoffeln, Auberginen, Bechamelsauce, Zucchini, Hackfleisch",
+          "question": "Welcher der folgenden Zutaten gehört nicht in eine klassische Moussaka? Kartfoffeln, Bechamelsauce, Zucchini, Hackfleisch",
           "category": "Schmackofatz",
           "value": 300,
           "solution": "Zucchini"
@@ -61,13 +61,13 @@
           "value": 200
         },
         {
-          "question": "Was waren Timon und Pumbaa für Tiere? (Reichtige Reihenfolge)",
+          "question": "Was waren Timon und Pumbaa für Tiere? (Richtige Reihenfolge)",
           "category": "Kindheitshelden",
           "solution": "Erdmännchen und Warzenschwein",
           "value": 300
         },
         {
-          "question": "Wie heißt die Stadt in der Benajamin Blümchen seine Abenteuer erlebt?",
+          "question": "Wie heißt die Stadt in der Benjamin Blümchen seine Abenteuer erlebt?",
           "category": "Kindheitshelden",
           "solution": "Neustadt",
           "value": 400
@@ -99,7 +99,7 @@
         },
         {
           "question": "Von welchem Künstler stammt dieses Album-Cover?",
-          "solution": "Micheal Jackson",
+          "solution": "Michael Jackson",
           "type": "picture",
           "mediaUrl": "media/music3.jpg",
           "category": "Only Banger",
@@ -124,41 +124,42 @@
       ]
     },
     {
-      "name": "Bio ist für mich Abfall",
+      "name": "Hund, Katze, Maus",
       "questions": [
         {
-          "question": "",
-          "solution": "",
-          "type": "",
-          "mediaUrl": "",
+          "question": "Was passiert der Biene, wenn sie sticht?",
+          "solution": "Sie stirbt",
           "category": "Bio ist für mich Abfall",
           "value": 100
         },
         {
-          "question": "",
+          "question": "Was macht die eine Taube da?",
           "category": "Bio ist für mich Abfall",
-          "type": "",
-          "solution": "",
-          "mediaUrl": "",
+          "solution": "Balztanz",
+          "type": "video",
+          "mediaUrl": "media/biology2.mp4",
           "value": 200
         },
         {
-          "question": "",
+          "question": "Wieso essen Eisbären keine Pinguine?",
+          "solution": "Weil sie am Nordpol leben und Pinguine am Südpol",
           "category": "Bio ist für mich Abfall",
           "value": 300
         },
         {
-          "question": "",
-          "solution": "",
+          "question": "Was ist das besondere an diesem Tier?",
           "category": "Bio ist für mich Abfall",
+          "type": "picture",
+          "mediaUrl": "media/biology4.jpg",
+          "solution": "Einziges Säugetier, das Eier legt",
           "value": 400
         },
         {
-          "question": "",
+          "question": "Welches Tier macht solche Geräusche?",
           "category": "Bio ist für mich Abfall",
-          "type": "",
-          "mediaUrl": "",
-          "solution": "",
+          "type": "audio",
+          "mediaUrl": "media/biology5.mp3",
+          "solution": "Kamel",
           "value": 500
         }
       ]
@@ -182,12 +183,12 @@
           "value": 300
         },
         {
-          "question": "",
+          "question": "Das bringt das Fass zum Überlaufen",
           "category": "Wir sind Spielkinder",
           "value": 300
         },
         {
-          "question": "",
+          "question": "Ex und hopp",
           "category": "Wir sind Spielkinder",
           "value": 300
         }
@@ -197,34 +198,41 @@
       "name": "Die Stumic-Fragen!",
       "questions": [
         {
-          "question": "",
+          "question": "Wie heißt dieser Trick?",
+          "type": "video",
+          "mediaUrl": "media/stumic1.mp4",
+          "solution": "Kickflip",
           "category": "Die Stumic-Fragen!",
           "value": 100
         },
         {
-          "question": "",
+          "question": "Aus welchem Film kennt man dieses Lied?",
           "category": "Die Stumic-Fragen!",
-          "solution": "",
-          "type": "",
-          "mediaUrl": "",
+          "solution": "Twilight",
+          "type": "audio",
+          "mediaUrl": "media/stumic2.mp3",
           "value": 200
         },
         {
-          "question": "",
+          "question": "Durch welche Show wurde dieser Mann berühmt?",
+          "type": "picture",
+          "mediaUrl": "media/stumic3.jpg",
+          "solution": "Temptation Island",
           "category": "Die Stumic-Fragen!",
-          "solution": "",
           "value": 300
         },
         {
-          "question": "",
+          "question": "Wie heißt der Protagonist aus GTA IV?",
+          "type": "picture",
+          "mediaUrl": "media/stumic4.jpg",
+          "solution": "Niko Bellic",
           "category": "Die Stumic-Fragen!",
-          "solution": "",
           "value": 400
         },
         {
-          "question": "",
+          "question": "Wo hatten die Stumics ihr erstes Date in Köln?",
           "category": "Die Stumic-Fragen!",
-          "solution": "",
+          "solution": "Lindenthaler Tierpark",
           "value": 500
         }
       ]
