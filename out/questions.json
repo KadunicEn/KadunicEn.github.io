@@ -1,0 +1,230 @@
+{
+  "categories": [
+    {
+      "name": "What do you Meme?",
+      "questions": [
+        {
+          "question": "Aus welchem Song stammt dieses Meme?",
+          "category": "What do you Meme?",
+          "type": "picture",
+          "solution": "Hotline Bling - Drake",
+          "mediaUrl": "media/meme1.jpg",
+          "value": 100
+        },
+        {
+          "question": "Was hat er in seinem Stutzen?",
+          "category": "What do you Meme?",
+          "type": "picture",
+          "mediaUrl": "media/meme2.jpg",
+          "solution": "Zigaretten",
+          "value": 200
+        },
+        {
+          "question": "Wer spricht hier?",
+          "category": "What do you Meme?",
+          "value": 300,
+          "type": "audio",
+          "solution": "Egon Kowalski",
+          "mediaUrl": "media/meme3.mp3"
+        },
+        {
+          "question": "Was wurde ihm angetan?",
+          "category": "What do you Meme?",
+          "type": "video",
+          "solution": "Jemand hat vor sein Haus uriniert",
+          "mediaUrl": "media/meme4.mp4",
+          "value": 400
+        },
+        {
+          "question": "Wie heißen die Kinder von Silvia Wollny?",
+          "category": "What do you Meme?",
+          "solution": "Lavinia, Calantha, Estefania, Loredana, Sylvana, Sarafina, Jeremy-Pascal, Alessia, Florian, Sarah-Jane",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "Das ist Schulwissen!",
+      "questions": [
+        {
+          "question": "Was haben diese Begriffe gemeinsam?",
+          "category": "Das ist Schulwissen!",
+          "solution": "Sie sind alle Verben",
+          "value": 100
+        },
+        {
+          "question": "Wie viel Grad hat Winkel Alpha?",
+          "category": "Das ist Schulwissen!",
+          "type": "picture",
+          "solution": "27°",
+          "mediaUrl": "media/school2.jpg",
+          "value": 200
+        },
+        {
+          "question": "Wer kann in 30 Sekunden mehr Shakespeare Werke aufzählen?",
+          "category": "Das ist Schulwissen!",
+          "solution": "Hamlet, Macbeth, Othello, King Lear, Romeo and Juliet, Julius Caesar, The Tempest, A Midsummer Night's Dream, Much Ado About Nothing, The Merchant of Venice",
+          "value": 300
+        },
+        {
+          "question": "Wieso ist der erste Weltkrieg ausgebrochen?",
+          "category": "Das ist Schulwissen!",
+          "solution": "Weil der österreichische Thronfolger Franz Ferdinand und seine Frau Sophie in Sarajevo ermordet wurden",
+          "value": 400
+        },
+        {
+          "question": "Bearbeite das Arbeitsblatt für Siebtklässler",
+          "category": "Das ist Schulwissen!",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "Let it Pop(kultur)!",
+      "questions": [
+        {
+          "question": "Wie heißt der Mann von dem sich Kim Kardashian 2022 hat scheiden lassen?",
+          "category": "Let it Pop(kultur)!",
+          "solution": "Kanye West oder auch ye",
+          "value": 100
+        },
+        {
+          "question": "Aus welcher Hitserie stammt dieser Gegenstand?",
+          "category": "Let it Pop(kultur)!",
+          "type": "picture",
+          "solution": "How I Met Your Mother",
+          "mediaUrl": "media/pop2.jpg",
+          "value": 200
+        },
+        {
+          "question": "Von welchem Künstler/welcher Küsntlerin stammen folgende Titel?",
+          "solution": "Taylor Swift",
+          "category": "Let it Pop(kultur)!",
+          "value": 300
+        },
+        {
+          "question": "Aus welcher Reality TV Show stammt dieser Ausschnitt?",
+          "category": "Let it Pop(kultur)!",
+          "type": "video",
+          "solution": "Sommerhaus der Stars",
+          "mediaUrl": "media/pop4.mp4",
+          "value": 400
+        },
+        {
+          "question": "Welche schauspielende Person hat unter anderem in Game of Thrones, The Last of Us, und Narcos mitgespielt?",
+          "solution": "Pedro Pascal",
+          "category": "Let it Pop(kultur)!",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "Länder und ihre Sitten",
+      "questions": [
+        {
+          "question": "Aus welchem Land stammt dieses Straßenschild?",
+          "solution": "Thailand",
+          "type": "picture",
+          "mediaUrl": "media/countries1.jpg",
+          "category": "Länder und ihre Sitten",
+          "value": 100
+        },
+        {
+          "question": "Wem gehört diese Flagge",
+          "category": "Länder und ihre Sitten",
+          "type": "picture",
+          "solution": "Bulgarien",
+          "mediaUrl": "media/countries2.jpeg",
+          "value": 200
+        },
+        {
+          "question": "Löse das Arbeitsblatt so schnell wie möglich",
+          "category": "Länder und ihre Sitten",
+          "value": 300
+        },
+        {
+          "question": "Was meint der Österreicher wenn er Stiegenhaus sagt?",
+          "solution": "Treppenhaus",
+          "category": "Länder und ihre Sitten",
+          "value": 400
+        },
+        {
+          "question": "Welche Sprache spricht Denise hier?",
+          "category": "Länder und ihre Sitten",
+          "type": "audio",
+          "mediaUrl": "media/countries5.mp3",
+          "solution": "Ungarisch",
+          "value": 500
+        }
+      ]
+    },
+    {
+      "name": "Wir sind Spielkinder",
+      "questions": [
+        {
+          "question": "Sync up! - Wie gut kennt ihr euch?",
+          "category": "Wir sind Spielkinder",
+          "value": 300
+        },
+        {
+          "question": "Kopfrechnen",
+          "category": "Wir sind Spielkinder",
+          "value": 300
+        },
+        {
+          "question": "Was ein dicker Schinken!",
+          "category": "Wir sind Spielkinder",
+          "value": 300
+        },
+        {
+          "question": "Wer bin ich?",
+          "category": "Wir sind Spielkinder",
+          "value": 300
+        },
+        {
+          "question": "Das kann man laufen",
+          "category": "Wir sind Spielkinder",
+          "value": 300
+        }
+      ]
+    },
+    {
+      "name": "Die Stumic-Fragen!",
+      "questions": [
+        {
+          "question": "Schreibe in 30 Sekunden so viele Harry Potter Charaktere wie möglich auf",
+          "category": "Die Stumic-Fragen!",
+          "value": 100
+        },
+        {
+          "question": "Wen muss dieser Held immer wieder retten?",
+          "category": "Die Stumic-Fragen!",
+          "solution": "Zelda",
+          "type": "picture",
+          "mediaUrl": "media/stumic2.jpg",
+          "value": 200
+        },
+        {
+          "question": "Gegen wen hat der MSV in diesem historischen Spiel gewonnen?",
+          "category": "Die Stumic-Fragen!",
+          "type": "picture",
+          "mediaUrl": "media/stumic3.jpg",
+          "solution": "Holstein Kiel",
+          "value": 300
+        },
+        {
+          "question": "Welche Serie verfolgt das Leben folgender Personen?",
+          "category": "Die Stumic-Fragen!",
+          "solution": "Gossip Girl",
+          "value": 400
+        },
+        {
+          "question": "Wann sind die Stumics zusammengekommen? (Genaues Datum)",
+          "category": "Die Stumic-Fragen!",
+          "solution": "01.05.2018",
+          "value": 500
+        }
+      ]
+    }
+  ]
+}
