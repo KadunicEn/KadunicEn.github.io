@@ -23,6 +23,7 @@ This template comes with the following features:
 - `analyze` – analyzes application bundle with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
 
 ### Testing scripts
+### testing
 
 - `typecheck` – checks TypeScript types
 - `lint` – runs ESLint
