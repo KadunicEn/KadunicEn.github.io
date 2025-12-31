@@ -1,230 +1,248 @@
 {
-  "categories": [
-    {
-      "name": "What do you Meme?",
-      "questions": [
+    "categories": [
         {
-          "question": "Aus welchem Song stammt dieses Meme?",
-          "category": "What do you Meme?",
-          "type": "picture",
-          "solution": "Hotline Bling - Drake",
-          "mediaUrl": "media/meme1.jpg",
-          "value": 100
+            "name": "What do you Meme?",
+            "questions": [
+                {
+                    "question": "Wer ist bei der Party auch dabei?",
+                    "category": "What do you Meme?",
+                    "type": "video",
+                    "solution": "Und ich bin der Uwe und ich bin auch dabei!",
+                    "mediaUrl": "media/meme1.mp4",
+                    "value": 100
+                },
+                {
+                    "question": "Wo ist Gerda nicht?",
+                    "category": "What do you Meme?",
+                    "type": "video",
+                    "mediaUrl": "media/meme2.mp4",
+                    "solution": "Malibu",
+                    "value": 200
+                },
+                {
+                    "question": "Was ist das letzte fehlende Hilfsmittel gegen den Kater?",
+                    "category": "What do you Meme?",
+                    "value": 300,
+                    "type": "audio",
+                    "solution": "Bier",
+                    "mediaUrl": "media/meme3.m4a"
+                },
+                {
+                    "question": "Wie alt ist sein Sohn von dem er getrennt wurde?",
+                    "category": "What do you Meme?",
+                    "type": "picture",
+                    "solution": "12 Jahre",
+                    "mediaUrl": "media/meme4.png",
+                    "value": 400
+                },
+                {
+                    "question": "Wähle die passende Antwort aus?",
+                    "category": "What do you Meme?",
+                    "type": "video",
+                    "solution": "mit die Kinner, mit der Hausfrau...",
+                    "value": 500,
+                    "mediaUrl": "media/meme5.mp4"
+                }
+            ]
         },
         {
-          "question": "Was hat er in seinem Stutzen?",
-          "category": "What do you Meme?",
-          "type": "picture",
-          "mediaUrl": "media/meme2.jpg",
-          "solution": "Zigaretten",
-          "value": 200
+            "name": "Das ist Schulwissen!",
+            "questions": [
+                {
+                    "question": "Konjugiere das Verb -sehen-!",
+                    "category": "Das ist Schulwissen!",
+                    "solution": "ich sehe, du siehst, er/sie/es sieht, wir sehen, ihr seht, sie sehen",
+                    "value": 100
+                },
+                {
+                    "question": "Wie lauten die klassischen Sinne des Menschen?",
+                    "category": "Das ist Schulwissen!",
+                    "solution": "Sehsinn, Hörsinn, Riechsinn, Geschmackssinn, Tastsinn",
+                    "value": 200
+                },
+                {
+                    "question": "Ohne Tschenrechner - Wie groß ist der fehlende Winkel?",
+                    "category": "Das ist Schulwissen!",
+                    "type": "picture",
+                    "solution": "27°",
+                    "mediaUrl": "media/schulwissen3",
+                    "value": 300
+                },
+                {
+                    "question": "Nenne mir alle Hauptstädte der einzelnen Bundesländer der Bundesrepublik Deutschland?",
+                    "category": "Das ist Schulwissen!",
+                    "solution": "Berlin, Hamburg, Bremen, Schwerien, Kiel, Hannover, Düsseldorf, Potsdam, Dreseden, Erfurt, Magdeburg, Saarbrücken, Mainz, Wiesbanden, Stuttgart, München",
+                    "value": 400
+                },
+                {
+                    "question": "Es gibt 6 verschiedene Zeitformen in der deutschen Grammatik: Präsens, Perfekt, Präteritum, Plusquamperfekt, FuturI, FuturII. In welcher Zeitform ist dieser Satz geschrieben: [Die Neighborhood Gang ist eine sehr ausgegelichene und harmonische Truppe gewesen, die sich gegenseitig geliebt, viel zusammen gelacht und immer eine Menge Spaß miteinander gehabt hat.]",
+                    "category": "Das ist Schulwissen!",
+                    "solution": "Perfekt",
+                    "value": 500
+                }
+            ]
         },
         {
-          "question": "Wer spricht hier?",
-          "category": "What do you Meme?",
-          "value": 300,
-          "type": "audio",
-          "solution": "Egon Kowalski",
-          "mediaUrl": "media/meme3.mp3"
+            "name": "KI oder Real?",
+            "questions": [
+                {
+                    "question": "Ist dieses Bild KI oder Real?",
+                    "category": "KI oder Real?",
+                    "type": "picture",
+                    "solution": "KI",
+                    "mediaUrl": "media/KI1.jpg",
+                    "value": 100
+                },
+                {
+                    "question": "Ist dieses Bild KI oder Real?",
+                    "category": "KI oder Real?",
+                    "type": "picture",
+                    "solution": "KI",
+                    "mediaUrl": "media/KI2.png",
+                    "value": 200
+                },
+                {
+                    "question": "Ist dieses Bild KI oder Real?",
+                    "category": "KI oder Real?",
+                    "type": "picture",
+                    "solution": "Real",
+                    "mediaUrl": "media/KI3.jpg",
+                    "value": 300
+                },
+                {
+                    "question": "Ist dieses Bild KI oder Real?",
+                    "category": "KI oder Real?",
+                    "type": "picture",
+                    "solution": "KI",
+                    "mediaUrl": "media/KI4.png",
+                    "value": 400
+                },
+                {
+                    "question": "Wo ist das KI Bild?",
+                    "category": "KI oder Real?",
+                    "type": "picture",
+                    "solution": "links",
+                    "mediaUrl": "media/KI5.jpg",
+                    "value": 500
+                }
+            ]
         },
         {
-          "question": "Was wurde ihm angetan?",
-          "category": "What do you Meme?",
-          "type": "video",
-          "solution": "Jemand hat vor sein Haus uriniert",
-          "mediaUrl": "media/meme4.mp4",
-          "value": 400
+            "name": "Länder und ihre Sitten",
+            "questions": [
+                {
+                    "question": "Was sollte man in Italien im Restaurant/Café niemals nach 11 Uhr morgens bestellen?",
+                    "solution": "Cappuccino",
+                    "category": "Länder und ihre Sitten",
+                    "value": 100
+                },
+                {
+                    "question": "Wie nennt man dieses typische australische Instrument?",
+                    "category": "Länder und ihre Sitten",
+                    "type": "picture",
+                    "solution": "Didgeridoo",
+                    "mediaUrl": "media/countries2.webp",
+                    "value": 200
+                },
+                {
+                    "question": "Was meint der Österreicher wenn er vom [Sackerl] spricht?",
+                    "solution": "Tüte, Beutel",
+                    "category": "Länder und ihre Sitten",
+                    "value": 300
+                },
+                {
+                    "question": "Aus welchem Land stammt dieses typische Souvenir?",
+                    "category": "Länder und ihre Sitten",
+                    "type": "picture",
+                    "mediaUrl": "media/countries4.webp",
+                    "solution": "Dänemark",
+                    "value": 400
+                },
+                {
+                    "question": "Was ist auf einem Bahnübergang in Frankreich per Gesetz strengstens verboten?",
+                    "category": "Länder und ihre Sitten",
+                    "solution": "Küssen",
+                    "value": 500
+                }
+            ]
         },
         {
-          "question": "Wie heißen die Kinder von Silvia Wollny?",
-          "category": "What do you Meme?",
-          "solution": "Lavinia, Calantha, Estefania, Loredana, Sylvana, Sarafina, Jeremy-Pascal, Alessia, Florian, Sarah-Jane",
-          "value": 500
+            "name": "Was sind das denn für Geräusche?!",
+            "questions": [
+                {
+                    "question": "Was ist das für ein Geräusch?",
+                    "category": "Was sind das denn für Geräusche?!",
+                    "type": "audio",
+                    "solution": "Formel 1 Auto",
+                    "mediaUrl": "media/sound1.m4a",
+                    "value": 100
+                },
+                {
+                    "question": "Was ist das für ein Geräusch?",
+                    "category": "Was sind das denn für Geräusche?!",
+                    "type": "audio",
+                    "solution": "56k Mondem",
+                    "mediaUrl": "media/sound2.m4a",
+                    "value": 200
+                },
+                {
+                    "question": "Was ist das für ein Geräusch?",
+                    "category": "Was sind das denn für Geräusche?!",
+                    "type": "audio",
+                    "solution": "Hamster / Marius bekifft",
+                    "mediaUrl": "media/sound3.m4a",
+                    "value": 300
+                },
+                {
+                    "question": "Was ist das für ein Geräusch?",
+                    "category": "Was sind das denn für Geräusche?!",
+                    "type": "audio",
+                    "solution": "Schmied",
+                    "mediaUrl": "media/sound4.m4a",
+                    "value": 400
+                },
+                {
+                    "question": "Was ist das für ein Geräusch?",
+                    "category": "Was sind das denn für Geräusche?!",
+                    "type": "audio",
+                    "solution": "Hirsch",
+                    "mediaUrl": "media/sound5.m4a",
+                    "value": 500
+                }
+            ]
+        },
+        {
+            "name": "Becker Spezial!",
+            "questions": [
+                {
+                    "question": "Wie nennt man das pendant zum 11 Meter beim Handball?",
+                    "category": "Becker Spezial!",
+                    "solution": "7 Meter",
+                    "value": 100
+                },
+                {
+                    "question": "Schätzfrage: Wie viele Medien befinden sich in unserer WhatsApp Gruppe?",
+                    "category": "Becker Spezial!",
+                    "solution": "Stand 31.12.2025 12:45 Uhr = 2.053 Stück",
+                    "value": 200
+                },
+                {
+                    "question": "Fülle 500g in ein Glas - Wer näher dran ist gewinnt",
+                    "category": "Becker Spezial!",
+                    "value": 300
+                },
+                {
+                    "question": "In welchem Monat + Jahr wurde unsere WhatsApp Gruppe erstellt?",
+                    "category": "Becker Spezial!",
+                    "solution": "August 2018",
+                    "value": 400
+                },
+                {
+                    "question": "Blindfold Mario Kart",
+                    "category": "Becker Spezial!",
+                    "value": 500
+                }
+            ]
         }
-      ]
-    },
-    {
-      "name": "Das ist Schulwissen!",
-      "questions": [
-        {
-          "question": "Was haben diese Begriffe gemeinsam?",
-          "category": "Das ist Schulwissen!",
-          "solution": "Sie sind alle Verben",
-          "value": 100
-        },
-        {
-          "question": "Wie viel Grad hat Winkel Alpha?",
-          "category": "Das ist Schulwissen!",
-          "type": "picture",
-          "solution": "27°",
-          "mediaUrl": "media/school2.jpg",
-          "value": 200
-        },
-        {
-          "question": "Wer kann in 30 Sekunden mehr Shakespeare Werke aufzählen?",
-          "category": "Das ist Schulwissen!",
-          "solution": "Hamlet, Macbeth, Othello, King Lear, Romeo and Juliet, Julius Caesar, The Tempest, A Midsummer Night's Dream, Much Ado About Nothing, The Merchant of Venice",
-          "value": 300
-        },
-        {
-          "question": "Wieso ist der erste Weltkrieg ausgebrochen?",
-          "category": "Das ist Schulwissen!",
-          "solution": "Weil der österreichische Thronfolger Franz Ferdinand und seine Frau Sophie in Sarajevo ermordet wurden",
-          "value": 400
-        },
-        {
-          "question": "Bearbeite das Arbeitsblatt für Siebtklässler",
-          "category": "Das ist Schulwissen!",
-          "value": 500
-        }
-      ]
-    },
-    {
-      "name": "Let it Pop(kultur)!",
-      "questions": [
-        {
-          "question": "Wie heißt der Mann von dem sich Kim Kardashian 2022 hat scheiden lassen?",
-          "category": "Let it Pop(kultur)!",
-          "solution": "Kanye West oder auch ye",
-          "value": 100
-        },
-        {
-          "question": "Aus welcher Hitserie stammt dieser Gegenstand?",
-          "category": "Let it Pop(kultur)!",
-          "type": "picture",
-          "solution": "How I Met Your Mother",
-          "mediaUrl": "media/pop2.jpg",
-          "value": 200
-        },
-        {
-          "question": "Von welchem Künstler/welcher Küsntlerin stammen folgende Titel?",
-          "solution": "Taylor Swift",
-          "category": "Let it Pop(kultur)!",
-          "value": 300
-        },
-        {
-          "question": "Aus welcher Reality TV Show stammt dieser Ausschnitt?",
-          "category": "Let it Pop(kultur)!",
-          "type": "video",
-          "solution": "Sommerhaus der Stars",
-          "mediaUrl": "media/pop4.mp4",
-          "value": 400
-        },
-        {
-          "question": "Welche schauspielende Person hat unter anderem in Game of Thrones, The Last of Us, und Narcos mitgespielt?",
-          "solution": "Pedro Pascal",
-          "category": "Let it Pop(kultur)!",
-          "value": 500
-        }
-      ]
-    },
-    {
-      "name": "Länder und ihre Sitten",
-      "questions": [
-        {
-          "question": "Aus welchem Land stammt dieses Straßenschild?",
-          "solution": "Thailand",
-          "type": "picture",
-          "mediaUrl": "media/countries1.jpg",
-          "category": "Länder und ihre Sitten",
-          "value": 100
-        },
-        {
-          "question": "Wem gehört diese Flagge",
-          "category": "Länder und ihre Sitten",
-          "type": "picture",
-          "solution": "Bulgarien",
-          "mediaUrl": "media/countries2.jpeg",
-          "value": 200
-        },
-        {
-          "question": "Löse das Arbeitsblatt so schnell wie möglich",
-          "category": "Länder und ihre Sitten",
-          "value": 300
-        },
-        {
-          "question": "Was meint der Österreicher wenn er Stiegenhaus sagt?",
-          "solution": "Treppenhaus",
-          "category": "Länder und ihre Sitten",
-          "value": 400
-        },
-        {
-          "question": "Welche Sprache spricht Denise hier?",
-          "category": "Länder und ihre Sitten",
-          "type": "audio",
-          "mediaUrl": "media/countries5.mp3",
-          "solution": "Ungarisch",
-          "value": 500
-        }
-      ]
-    },
-    {
-      "name": "Wir sind Spielkinder",
-      "questions": [
-        {
-          "question": "Sync up! - Wie gut kennt ihr euch?",
-          "category": "Wir sind Spielkinder",
-          "value": 300
-        },
-        {
-          "question": "Kopfrechnen",
-          "category": "Wir sind Spielkinder",
-          "value": 300
-        },
-        {
-          "question": "Was ein dicker Schinken!",
-          "category": "Wir sind Spielkinder",
-          "value": 300
-        },
-        {
-          "question": "Wer bin ich?",
-          "category": "Wir sind Spielkinder",
-          "value": 300
-        },
-        {
-          "question": "Das kann man laufen",
-          "category": "Wir sind Spielkinder",
-          "value": 300
-        }
-      ]
-    },
-    {
-      "name": "Die Stumic-Fragen!",
-      "questions": [
-        {
-          "question": "Schreibe in 30 Sekunden so viele Harry Potter Charaktere wie möglich auf",
-          "category": "Die Stumic-Fragen!",
-          "value": 100
-        },
-        {
-          "question": "Wen muss dieser Held immer wieder retten?",
-          "category": "Die Stumic-Fragen!",
-          "solution": "Zelda",
-          "type": "picture",
-          "mediaUrl": "media/stumic2.jpg",
-          "value": 200
-        },
-        {
-          "question": "Gegen wen hat der MSV in diesem historischen Spiel gewonnen?",
-          "category": "Die Stumic-Fragen!",
-          "type": "picture",
-          "mediaUrl": "media/stumic3.jpg",
-          "solution": "Holstein Kiel",
-          "value": 300
-        },
-        {
-          "question": "Welche Serie verfolgt das Leben folgender Personen?",
-          "category": "Die Stumic-Fragen!",
-          "solution": "Gossip Girl",
-          "value": 400
-        },
-        {
-          "question": "Wann sind die Stumics zusammengekommen? (Genaues Datum)",
-          "category": "Die Stumic-Fragen!",
-          "solution": "01.05.2018",
-          "value": 500
-        }
-      ]
-    }
-  ]
+    ]
 }
