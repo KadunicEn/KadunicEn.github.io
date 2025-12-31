@@ -147,7 +147,7 @@ export default function JeopardyGrid() {
               }}
             /> */}
             <Title order={1} style={{ textAlign: 'center' }}>
-              Stumic Quizshow
+              SilvesterBash
             </Title>
             <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
               <Text bg="red">
