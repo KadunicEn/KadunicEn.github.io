@@ -174,7 +174,7 @@
                     "category": "Was sind das denn für Geräusche?!",
                     "type": "audio",
                     "solution": "Formel 1 Auto",
-                    "mediaUrl": "media/sound1.m4a",
+                    "mediaUrl": "media/song1.m4a",
                     "value": 100
                 },
                 {
@@ -182,7 +182,7 @@
                     "category": "Was sind das denn für Geräusche?!",
                     "type": "audio",
                     "solution": "56k Mondem",
-                    "mediaUrl": "media/sound2.m4a",
+                    "mediaUrl": "media/song2.m4a",
                     "value": 200
                 },
                 {
@@ -190,7 +190,7 @@
                     "category": "Was sind das denn für Geräusche?!",
                     "type": "audio",
                     "solution": "Hamster / Marius bekifft",
-                    "mediaUrl": "media/sound3.m4a",
+                    "mediaUrl": "media/song3.m4a",
                     "value": 300
                 },
                 {
@@ -198,7 +198,7 @@
                     "category": "Was sind das denn für Geräusche?!",
                     "type": "audio",
                     "solution": "Schmied",
-                    "mediaUrl": "media/sound4.m4a",
+                    "mediaUrl": "media/song4.m4a",
                     "value": 400
                 },
                 {
@@ -206,7 +206,7 @@
                     "category": "Was sind das denn für Geräusche?!",
                     "type": "audio",
                     "solution": "Hirsch",
-                    "mediaUrl": "media/sound5.m4a",
+                    "mediaUrl": "media/song5.m4a",
                     "value": 500
                 }
             ]
