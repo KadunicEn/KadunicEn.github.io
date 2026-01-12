@@ -26,6 +26,8 @@ interface Category {
   questions: Question[]
 }
 
+
+
 export default function JeopardyGrid() {
   const { setColorScheme } = useMantineColorScheme()
   const [categories, setCategories] = useState<Category[]>([])
@@ -35,12 +37,14 @@ export default function JeopardyGrid() {
     categoryIndex: number
     questionIndex: number
   } | null>(null)
-  const [questionColors, setQuestionColors] = useState<{ [key: string]: string }>({})
-  const [teamScores, setTeamScores] = useState<{ [team: string]: number }>({
+  type TeamColor = 'red' | 'green' | 'blue'
+  const [teamScores, setTeamScores] = useState<Record<TeamColor, number>>({
     red: 0,
     green: 0,
     blue: 0
   })
+
+  const [questionColors, setQuestionColors] = useState<{ [key: string]: string }>({})
   const [showSolution, setShowSolution] = useState(false)
   const teamOne = 'Besties'
   const teamTwo = 'Testobolzen'
@@ -52,7 +56,7 @@ export default function JeopardyGrid() {
     setOpened(true)
   }
 
-  const handleButtonClick = (color: string) => {
+  const handleButtonClick = (color: TeamColor) => {
     if (selectedQuestion) {
       const key = `${selectedQuestion.categoryIndex}-${selectedQuestion.questionIndex}`
       setQuestionColors((prevColors) => ({
@@ -108,12 +112,41 @@ export default function JeopardyGrid() {
   useHotkeys([['mod+l', () => new Audio('/media/loser.mp3').play()]])
   useHotkeys([['mod+ö', () => new Audio('/media/winner.mp3').play()]])
 
+  const resetGame = () => {
+    setTeamScores({ red: 0, green: 0, blue: 0 })
+    setQuestionColors({})
+    localStorage.removeItem('jeopardy-team-scores')
+    localStorage.removeItem('jeopardy-question-colors')
+  }
+
+  useEffect(() => {
+    const storedScores = localStorage.getItem('jeopardy-team-scores')
+    const storedColors = localStorage.getItem('jeopardy-question-colors')
+
+    if (storedScores) {
+      setTeamScores(JSON.parse(storedScores))
+    }
+
+    if (storedColors) {
+      setQuestionColors(JSON.parse(storedColors))
+    }
+  }, [])
+
+  useEffect(() => {
+    localStorage.setItem('jeopardy-team-scores', JSON.stringify(teamScores))
+  }, [teamScores])
+
+  useEffect(() => {
+    localStorage.setItem('jeopardy-question-colors', JSON.stringify(questionColors))
+  }, [questionColors])
+
   useEffect(() => {
     setColorScheme('dark')
     fetch('/questions.json')
       .then((res) => res.json())
       .then((data) => setCategories(data.categories))
   }, [])
+
 
   return (
     <>
@@ -146,6 +179,9 @@ export default function JeopardyGrid() {
                 borderRadius: '100%'
               }}
             /> */}
+            <Button variant="outline" color="gray" onClick={resetGame}>
+              Reset Game
+            </Button>
             <Title order={1} style={{ textAlign: 'center' }}>
               SilvesterBash
             </Title>
