@@ -26,8 +26,6 @@ interface Category {
   questions: Question[]
 }
 
-
-
 export default function JeopardyGrid() {
   const { setColorScheme } = useMantineColorScheme()
   const [categories, setCategories] = useState<Category[]>([])
@@ -37,18 +35,21 @@ export default function JeopardyGrid() {
     categoryIndex: number
     questionIndex: number
   } | null>(null)
-  type TeamColor = 'red' | 'green' | 'blue'
+  type TeamColor = 'red' | 'green' | 'blue' | 'yellow' | 'black'
   const [teamScores, setTeamScores] = useState<Record<TeamColor, number>>({
     red: 0,
     green: 0,
-    blue: 0
+    blue: 0,
+    yellow: 0,
+    black: 0
   })
 
   const [questionColors, setQuestionColors] = useState<{ [key: string]: string }>({})
   const [showSolution, setShowSolution] = useState(false)
-  const teamOne = 'Besties'
-  const teamTwo = 'Testobolzen'
-  // const teamThree = 'Sidechicks'
+  const teamOne = 'Team 1'
+  const teamTwo = 'Team 2'
+  const teamThree = 'Team 3'
+  const teamFour = 'Team 4'
 
   const handlePaperClick = (question: Question, categoryIndex: number, questionIndex: number) => {
     setSelectedQuestion({ question, categoryIndex, questionIndex })
@@ -113,7 +114,7 @@ export default function JeopardyGrid() {
   useHotkeys([['mod+ö', () => new Audio('/media/winner.mp3').play()]])
 
   const resetGame = () => {
-    setTeamScores({ red: 0, green: 0, blue: 0 })
+    setTeamScores({ red: 0, green: 0, blue: 0, yellow: 0, black: 0 })
     setQuestionColors({})
     localStorage.removeItem('jeopardy-team-scores')
     localStorage.removeItem('jeopardy-question-colors')
@@ -146,7 +147,6 @@ export default function JeopardyGrid() {
       .then((res) => res.json())
       .then((data) => setCategories(data.categories))
   }, [])
-
 
   return (
     <>
@@ -192,9 +192,12 @@ export default function JeopardyGrid() {
               <Text bg="green">
                 {teamTwo}: {teamScores.green}
               </Text>
-              {/* <Text bg="blue">
+              <Text bg="blue">
                 {teamThree}: {teamScores.blue}
-              </Text> */}
+              </Text>
+              <Text bg="yellow">
+                {teamFour}: {teamScores.yellow}
+              </Text>
             </div>
           </Grid.Col>
         </Grid>
@@ -258,6 +261,7 @@ export default function JeopardyGrid() {
         </Grid>
 
         <Modal
+          size="xl"
           opened={opened}
           onClose={() => setOpened(false)}
           title={`${selectedQuestion?.question.category} - ${selectedQuestion?.question.value}`}
@@ -286,6 +290,12 @@ export default function JeopardyGrid() {
               {teamTwo}
             </Button>
             <Button bg="blue" onClick={() => handleButtonClick('blue')}>
+              {teamThree}
+            </Button>
+            <Button bg="yellow" onClick={() => handleButtonClick('yellow')}>
+              {teamFour}
+            </Button>
+            <Button bg="black" onClick={() => handleButtonClick('black')}>
               Keine Punkte
             </Button>
           </ButtonGroup>

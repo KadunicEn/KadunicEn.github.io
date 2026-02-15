@@ -129,73 +129,88 @@
             "name": "Länder und ihre Sitten",
             "questions": [
                 {
-                    "question": "Was sollte man in Italien im Restaurant/Café niemals nach 11 Uhr morgens bestellen?",
-                    "solution": "Cappuccino",
+                    "question": "Aus welchem Land stammt dieses Straßenschild? ",
+                    "solution": "Thailand",
+                    "type": "picture",
+                    "mediaUrl" :"media/countries1.jpg",
                     "category": "Länder und ihre Sitten",
                     "value": 100
                 },
                 {
-                    "question": "Wie nennt man dieses typische australische Instrument?",
+                    "question": "Was meint der Österreicher wenn er von einem Stiegenhaus spricht?",
                     "category": "Länder und ihre Sitten",
-                    "type": "picture",
-                    "solution": "Didgeridoo",
-                    "mediaUrl": "media/countries2.webp",
+                    "solution": "Treppenhaus",
                     "value": 200
                 },
                 {
-                    "question": "Was meint der Österreicher wenn er vom [Sackerl] spricht?",
-                    "solution": "Tüte, Beutel",
+                    "question": "Aus welchem Land kommt dieses Gericht? ",
+                    "solution": "Großbritannien",
+                    "type": "picture",
+                    "mediaUrl": "media/countries3.jpg",
                     "category": "Länder und ihre Sitten",
                     "value": 300
                 },
                 {
-                    "question": "Aus welchem Land stammt dieses typische Souvenir?",
+                    "question": "Von welchem Land ist diese Flagge?",
                     "category": "Länder und ihre Sitten",
                     "type": "picture",
-                    "mediaUrl": "media/countries4.webp",
-                    "solution": "Dänemark",
+                    "mediaUrl": "media/countries4.jpg",
+                    "solution": "Somalia",
                     "value": 400
                 },
                 {
-                    "question": "Was ist auf einem Bahnübergang in Frankreich per Gesetz strengstens verboten?",
+                    "question": "Welche Sprache wird hier gesprochen?",
+                    "mediaUrl": "media/countries5.mp3",
+                    "type": "audio",
                     "category": "Länder und ihre Sitten",
-                    "solution": "Küssen",
+                    "solution": "Tschechisch",
                     "value": 500
                 }
             ]
         },
         {
-            "name": "Minispiele-Mania",
+            "name": "Das Denise Special",
             "questions": [
                 {
-                    "question": "Was ein dicker Schinken!",
-                    "category": "Minispiele-Mania",
+                    "question": "Von welcher Serie ist dies die Titelmelodie?",
+                    "mediaUrl": "media/denise1.mp3",
+                    "solution": "Hannah Montana",
+                    "type": "audio",
+                    "category": "Das Denise Special",
+                    "value": 100
+                },
+                {
+                    "question": "In welcher Serie spielen Penn Badgley, Taylor Momsen, Ed Westwick und Blake Lively mit?",
+                    "solution": "Gossip Girl",
+                    "category": "Das Denise Special",
+                    "value": 200
+                },
+                {
+                    "question": "Welcher Seriencharackter sagt Folgendes: Pick me, Choose me, Love me?",
+                    "solution": "Meredith Grey",
+                    "category": "Das Denise Special",
                     "value": 300
                 },
                 {
-                    "question": "Kopfrechnen!",
-                    "category": "Minispiele-Mania",
-                    "value": 300
+                    "question": "Welche thailändische Insel ist hier zu erkennen?",
+                    "category": "Das Denise Special",
+                    "solution": "Kho Phi Phi",
+                    "mediaUrl": "media/denise4.jpg",
+                    "type": "picture",
+                    "value": 400
                 },
                 {
-                    "question": "Der letzte Tropfen!",
-                    "category": "Minispiele-Mania",
-                    "value": 300
-                },
-                {
-                    "question": "Das kann man laufen!",
-                    "category": "Minispiele-Mania",
-                    "value": 300
-                },
-                {
-                    "question": "Wer kann mehr!",
-                    "category": "Minispiele-Mania",
-                    "value": 300
+                    "question": "Wieso war dieser Charakter zu Release von Animal Crossing: New Horizon so beliebt?",
+                    "solution": "Es gab keine Amiibo-Karte von ihr, also war es RNG sie zu erlangen",
+                    "mediaUrl": "media/denise5.jpg",
+                    "type": "picture",
+                    "category": "Das Denise Special",
+                    "value": 500
                 }
             ]
         },
         {
-            "name": "Die Stumic-Fragen!",
+            "name": "Das Enver-Special",
             "questions": [
                 {
                     "question": "Wo liegt Meiderich?",
@@ -204,24 +219,26 @@
                     "value": 100
                 },
                 {
-                    "question": "Schätzfrage: Wie viele Medien befinden sich in unserer WhatsApp Gruppe?",
+                    "question": "Welcher Fußballverein hat die erste Bundesliga-Saison auf Platz 1 beendet?",
                     "category": "Die Stumic-Fragen!",
-                    "solution": "Stand 31.12.2025 12:45 Uhr = 2.053 Stück",
+                    "solution": "1. FC Köln",
                     "value": 200
                 },
                 {
-                    "question": "Fülle 500g in ein Glas - Wer näher dran ist gewinnt",
+                    "question": "In welchem Franchise verkörpert man einen sogenannten Vault-Hunter?",
                     "category": "Die Stumic-Fragen!",
+                    "solution": "Borderlands",
                     "value": 300
                 },
                 {
                     "question": "Was gibt new Date('Der MSV landet dieses Jahr auf Platz 2') zurück?",
                     "category": "Die Stumic-Fragen!",
-                    "solution": "Thu Feb 01 2001 00:00:00 GMT+0100 (Central European Standard Time)",
+                    "solution": "01.02.2001",
                     "value": 400
                 },
                 {
-                    "question": "Blindfold Mario Kart",
+                    "question": "Wie heißt der Turm auf dem man Rayquaza in Pokémon Smaragd begegnet?",
+                    "solution": "Himmelturm/Sky Pillar",
                     "category": "Die Stumic-Fragen!",
                     "value": 500
                 }
