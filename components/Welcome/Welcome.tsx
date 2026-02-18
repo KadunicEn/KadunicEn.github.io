@@ -1,5 +1,5 @@
-import { Anchor, Text, Title } from '@mantine/core';
-import classes from './Welcome.module.css';
+import { Anchor, Text, Title } from '@mantine/core'
+import classes from './Welcome.module.css'
 
 export function Welcome() {
   return (
@@ -19,5 +19,5 @@ export function Welcome() {
         . To get started edit index.tsx file.
       </Text>
     </>
-  );
+  )
 }

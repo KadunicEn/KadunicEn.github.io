@@ -12,117 +12,115 @@
                     "value": 100
                 },
                 {
-                    "question": "Wo ist Gerda nicht?",
+                    "question": "Was hat er in seinem Stutzen?",
                     "category": "What do you Meme?",
-                    "type": "video",
-                    "mediaUrl": "media/meme2.mp4",
-                    "solution": "Malibu",
+                    "type": "picture",
+                    "mediaUrl": "media/meme2.jpg",
+                    "solution": "Zigaretten",
                     "value": 200
                 },
                 {
-                    "question": "Was ist das letzte fehlende Hilfsmittel gegen den Kater?",
+                    "question": "Wie wurde das Haus vom Drachenlord auch genannt?",
                     "category": "What do you Meme?",
                     "value": 300,
-                    "type": "audio",
-                    "solution": "Bier",
-                    "mediaUrl": "media/meme3.m4a"
+                    "solution": "Drachenschanze"
                 },
                 {
                     "question": "Wie alt ist sein Sohn von dem er getrennt wurde?",
                     "category": "What do you Meme?",
                     "type": "picture",
-                    "solution": "12 Jahre",
+                    "solution": "Zwölf",
                     "mediaUrl": "media/meme4.png",
                     "value": 400
                 },
                 {
-                    "question": "Wähle die passende Antwort aus?",
+                    "question": "Aus welcher Serie ist dieses Meme?",
                     "category": "What do you Meme?",
-                    "type": "video",
-                    "solution": "mit die Kinner, mit der Hausfrau...",
+                    "type": "picture",
+                    "solution": "It's Always Sunny in Philadelphia",
                     "value": 500,
-                    "mediaUrl": "media/meme5.mp4"
+                    "mediaUrl": "media/meme5.jpg"
                 }
             ]
         },
         {
-            "name": "Das ist Schulwissen!",
+            "name": "Filme und Serien",
             "questions": [
                 {
-                    "question": "Konjugiere das Verb -sehen-!",
-                    "category": "Das ist Schulwissen!",
-                    "solution": "ich sehe, du siehst, er/sie/es sieht, wir sehen, ihr seht, sie sehen",
+                    "question": "Wie heißt der Schauspieler der die Charaktere Joel, Jason Pena, Oberyn Martell und den Mandalorian spielt?",
+                    "category": "Filme und Serien",
+                    "solution": "Pedro Pascal",
                     "value": 100
                 },
                 {
-                    "question": "Wie lauten die klassischen Sinne des Menschen?",
-                    "category": "Das ist Schulwissen!",
-                    "solution": "Sehsinn, Hörsinn, Riechsinn, Geschmackssinn, Tastsinn",
+                    "question": "Von welcher Serie ist das hier die Titelmelodie?",
+                    "category": "Filme und Serien",
+                    "solution": "Die Sopranos",
+                    "type": "audio",
+                    "mediaUrl": "media/movies2.mp3",
                     "value": 200
                 },
                 {
-                    "question": "Ohne Tschenrechner - Wie groß ist der fehlende Winkel?",
-                    "category": "Das ist Schulwissen!",
+                    "question": "In welchem Film oder Serie spielen diese Schauspielenden mit?",
+                    "category": "Filme und Serien",
                     "type": "picture",
-                    "solution": "27°",
-                    "mediaUrl": "media/schulwissen3",
+                    "solution": "Game of Thrones",
+                    "mediaUrl": "media/movies3.png",
                     "value": 300
                 },
                 {
-                    "question": "Nenne mir alle Hauptstädte der einzelnen Bundesländer der Bundesrepublik Deutschland?",
-                    "category": "Das ist Schulwissen!",
-                    "solution": "Berlin, Hamburg, Bremen, Schwerien, Kiel, Hannover, Düsseldorf, Potsdam, Dreseden, Erfurt, Magdeburg, Saarbrücken, Mainz, Wiesbanden, Stuttgart, München",
+                    "question": "Wieso haben die Fremen blauen Augen?",
+                    "category": "Filme und Serien",
+                    "type": "picture",
+                    "mediaUrl": "media/movies4.png",
+                    "solution": "Weil sie ständig das Spice zu sich nehmen, welches ihre Augen blau färbt",
                     "value": 400
                 },
                 {
-                    "question": "Es gibt 6 verschiedene Zeitformen in der deutschen Grammatik: Präsens, Perfekt, Präteritum, Plusquamperfekt, FuturI, FuturII. In welcher Zeitform ist dieser Satz geschrieben: [Die Neighborhood Gang ist eine sehr ausgegelichene und harmonische Truppe gewesen, die sich gegenseitig geliebt, viel zusammen gelacht und immer eine Menge Spaß miteinander gehabt hat.]",
-                    "category": "Das ist Schulwissen!",
-                    "solution": "Perfekt",
+                    "question": "Was haben die Eltern von Natalie Portman vertraglich festgelegt, bevor sie die Rolle von Mathilda in Léon der Profi spielte?",
+                    "category": "Filme und Serien",
+                    "solution": "Dass alle Szenen mit sexuellem Unterton gestrichen oder entschärft werden mussten",
                     "value": 500
                 }
             ]
         },
         {
-            "name": "KI oder Real?",
+            "name": "Let the Music play!",
             "questions": [
                 {
-                    "question": "Ist dieses Bild KI oder Real?",
-                    "category": "KI oder Real?",
-                    "type": "picture",
-                    "solution": "KI",
-                    "mediaUrl": "media/KI1.jpg",
+                    "question": "Von welcher Künstlerin stammt das Lied Shake it Off?",
+                    "category": "Let the Music play!",
+                    "solution": "Taylor Swift",
                     "value": 100
                 },
                 {
-                    "question": "Ist dieses Bild KI oder Real?",
-                    "category": "KI oder Real?",
-                    "type": "picture",
-                    "solution": "KI",
-                    "mediaUrl": "media/KI2.png",
+                    "question": "Welcher Rapper heißt mit bürgerlichem Namen Christopher Wallace?",
+                    "category": "Let the Music play!",
+                    "solution": "The Notorious B.I.G.",
                     "value": 200
                 },
                 {
-                    "question": "Ist dieses Bild KI oder Real?",
-                    "category": "KI oder Real?",
+                    "question": "Von welchem Künstler stammt dieses verpixelte Albumcover?",
+                    "category": "Let the Music play!",
                     "type": "picture",
-                    "solution": "Real",
-                    "mediaUrl": "media/KI3.jpg",
+                    "solution": "Michael Jackson",
+                    "mediaUrl": "media/music3.jpg",
                     "value": 300
                 },
                 {
-                    "question": "Ist dieses Bild KI oder Real?",
-                    "category": "KI oder Real?",
-                    "type": "picture",
-                    "solution": "KI",
-                    "mediaUrl": "media/KI4.png",
+                    "question": "Welches Lied wird hier rückwärts abgespielt? (Künstler + Titel)",
+                    "category": "Let the Music play!",
+                    "solution": "The Cranberries - Zombie",
+                    "type": "audio",
+                    "mediaUrl": "media/music4.mp3",
                     "value": 400
                 },
                 {
-                    "question": "Wo ist das KI Bild?",
-                    "category": "KI oder Real?",
-                    "type": "picture",
-                    "solution": "links",
-                    "mediaUrl": "media/KI5.jpg",
+                    "question": "Welcher Künstler singt hier?",
+                    "category": "Let the Music play!",
+                    "solution": "Nat King Cole",
+                    "type": "audio",
+                    "mediaUrl": "media/music5.mp3",
                     "value": 500
                 }
             ]
@@ -131,115 +129,117 @@
             "name": "Länder und ihre Sitten",
             "questions": [
                 {
-                    "question": "Was sollte man in Italien im Restaurant/Café niemals nach 11 Uhr morgens bestellen?",
-                    "solution": "Cappuccino",
+                    "question": "Aus welchem Land stammt dieses Straßenschild? ",
+                    "solution": "Thailand",
+                    "type": "picture",
+                    "mediaUrl" :"media/countries1.jpg",
                     "category": "Länder und ihre Sitten",
                     "value": 100
                 },
                 {
-                    "question": "Wie nennt man dieses typische australische Instrument?",
+                    "question": "Was meint der Österreicher wenn er von einem Stiegenhaus spricht?",
                     "category": "Länder und ihre Sitten",
-                    "type": "picture",
-                    "solution": "Didgeridoo",
-                    "mediaUrl": "media/countries2.webp",
+                    "solution": "Treppenhaus",
                     "value": 200
                 },
                 {
-                    "question": "Was meint der Österreicher wenn er vom [Sackerl] spricht?",
-                    "solution": "Tüte, Beutel",
+                    "question": "Aus welchem Land kommt dieses Gericht? ",
+                    "solution": "Großbritannien",
+                    "type": "picture",
+                    "mediaUrl": "media/countries3.jpg",
                     "category": "Länder und ihre Sitten",
                     "value": 300
                 },
                 {
-                    "question": "Aus welchem Land stammt dieses typische Souvenir?",
+                    "question": "Von welchem Land ist diese Flagge?",
                     "category": "Länder und ihre Sitten",
                     "type": "picture",
-                    "mediaUrl": "media/countries4.webp",
-                    "solution": "Dänemark",
+                    "mediaUrl": "media/countries4.jpg",
+                    "solution": "Somalia",
                     "value": 400
                 },
                 {
-                    "question": "Was ist auf einem Bahnübergang in Frankreich per Gesetz strengstens verboten?",
+                    "question": "Welche Sprache wird hier gesprochen?",
+                    "mediaUrl": "media/countries5.mp3",
+                    "type": "audio",
                     "category": "Länder und ihre Sitten",
-                    "solution": "Küssen",
+                    "solution": "Tschechisch",
                     "value": 500
                 }
             ]
         },
         {
-            "name": "Was sind das denn für Geräusche?!",
+            "name": "Das Denise Special",
             "questions": [
                 {
-                    "question": "Was ist das für ein Geräusch?",
-                    "category": "Was sind das denn für Geräusche?!",
+                    "question": "Von welcher Serie ist dies die Titelmelodie?",
+                    "mediaUrl": "media/denise1.mp3",
+                    "solution": "Hannah Montana",
                     "type": "audio",
-                    "solution": "Formel 1 Auto",
-                    "mediaUrl": "media/song1.m4a",
+                    "category": "Das Denise Special",
                     "value": 100
                 },
                 {
-                    "question": "Was ist das für ein Geräusch?",
-                    "category": "Was sind das denn für Geräusche?!",
-                    "type": "audio",
-                    "solution": "56k Mondem",
-                    "mediaUrl": "media/song2.m4a",
+                    "question": "In welcher Serie spielen Penn Badgley, Taylor Momsen, Ed Westwick und Blake Lively mit?",
+                    "solution": "Gossip Girl",
+                    "category": "Das Denise Special",
                     "value": 200
                 },
                 {
-                    "question": "Was ist das für ein Geräusch?",
-                    "category": "Was sind das denn für Geräusche?!",
-                    "type": "audio",
-                    "solution": "Hamster / Marius bekifft",
-                    "mediaUrl": "media/song3.m4a",
+                    "question": "Welcher Seriencharackter sagt Folgendes: Pick me, Choose me, Love me?",
+                    "solution": "Meredith Grey",
+                    "category": "Das Denise Special",
                     "value": 300
                 },
                 {
-                    "question": "Was ist das für ein Geräusch?",
-                    "category": "Was sind das denn für Geräusche?!",
-                    "type": "audio",
-                    "solution": "Schmied",
-                    "mediaUrl": "media/song4.m4a",
+                    "question": "Welche thailändische Insel ist hier zu erkennen?",
+                    "category": "Das Denise Special",
+                    "solution": "Kho Phi Phi",
+                    "mediaUrl": "media/denise4.jpg",
+                    "type": "picture",
                     "value": 400
                 },
                 {
-                    "question": "Was ist das für ein Geräusch?",
-                    "category": "Was sind das denn für Geräusche?!",
-                    "type": "audio",
-                    "solution": "Hirsch",
-                    "mediaUrl": "media/song5.m4a",
+                    "question": "Wieso war dieser Charakter zu Release von Animal Crossing: New Horizon so beliebt?",
+                    "solution": "Es gab keine Amiibo-Karte von ihr, also war es RNG sie zu erlangen",
+                    "mediaUrl": "media/denise5.jpg",
+                    "type": "picture",
+                    "category": "Das Denise Special",
                     "value": 500
                 }
             ]
         },
         {
-            "name": "Becker Spezial!",
+            "name": "Das Enver-Special",
             "questions": [
                 {
-                    "question": "Wie nennt man das pendant zum 11 Meter beim Handball?",
-                    "category": "Becker Spezial!",
-                    "solution": "7 Meter",
+                    "question": "Wo liegt Meiderich?",
+                    "category": "Die Stumic-Fragen!",
+                    "solution": "In Duisburg",
                     "value": 100
                 },
                 {
-                    "question": "Schätzfrage: Wie viele Medien befinden sich in unserer WhatsApp Gruppe?",
-                    "category": "Becker Spezial!",
-                    "solution": "Stand 31.12.2025 12:45 Uhr = 2.053 Stück",
+                    "question": "Welcher Fußballverein hat die erste Bundesliga-Saison auf Platz 1 beendet?",
+                    "category": "Die Stumic-Fragen!",
+                    "solution": "1. FC Köln",
                     "value": 200
                 },
                 {
-                    "question": "Fülle 500g in ein Glas - Wer näher dran ist gewinnt",
-                    "category": "Becker Spezial!",
+                    "question": "In welchem Franchise verkörpert man einen sogenannten Vault-Hunter?",
+                    "category": "Die Stumic-Fragen!",
+                    "solution": "Borderlands",
                     "value": 300
                 },
                 {
-                    "question": "In welchem Monat + Jahr wurde unsere WhatsApp Gruppe erstellt?",
-                    "category": "Becker Spezial!",
-                    "solution": "August 2018",
+                    "question": "Was gibt new Date('Der MSV landet dieses Jahr auf Platz 2') zurück?",
+                    "category": "Die Stumic-Fragen!",
+                    "solution": "01.02.2001",
                     "value": 400
                 },
                 {
-                    "question": "Blindfold Mario Kart",
-                    "category": "Becker Spezial!",
+                    "question": "Wie heißt der Turm auf dem man Rayquaza in Pokémon Smaragd begegnet?",
+                    "solution": "Himmelturm/Sky Pillar",
+                    "category": "Die Stumic-Fragen!",
                     "value": 500
                 }
             ]

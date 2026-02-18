@@ -1,5 +1,5 @@
-import JeopardyFlexbox from '@/components/JeopardyFlexBox/JeopardyFlexBox';
+import JeopardyFlexbox from '@/components/JeopardyFlexBox/JeopardyFlexBox'
 
 export default function HomePage() {
-  return <JeopardyFlexbox />;
+  return <JeopardyFlexbox />
 }
