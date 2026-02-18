@@ -46,9 +46,9 @@ export default function JeopardyGrid() {
 
   const [questionColors, setQuestionColors] = useState<{ [key: string]: string }>({})
   const [showSolution, setShowSolution] = useState(false)
-  const teamOne = 'Team 1'
-  const teamTwo = 'Team 2'
-  const teamThree = 'Team 3'
+  const teamOne = 'Team Lugga'
+  const teamTwo = 'Team GOST'
+  const teamThree = 'The Other Side'
   const teamFour = 'Team 4'
 
   const handlePaperClick = (question: Question, categoryIndex: number, questionIndex: number) => {
@@ -180,10 +180,10 @@ export default function JeopardyGrid() {
               }}
             /> */}
             <Button variant="outline" color="gray" onClick={resetGame}>
-              Reset Game
+              Zurücksetzen
             </Button>
             <Title order={1} style={{ textAlign: 'center' }}>
-              SilvesterBash
+              Stumic-Quiz
             </Title>
             <div style={{ display: 'flex', justifyContent: 'space-around', width: '100%' }}>
               <Text bg="red">
