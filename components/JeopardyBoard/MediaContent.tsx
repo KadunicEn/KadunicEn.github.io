@@ -44,15 +44,12 @@ let ytApiPromise: Promise<void> | null = null
 function loadYouTubeApi(): Promise<void> {
   if (ytApiPromise) return ytApiPromise
   ytApiPromise = new Promise((resolve) => {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     if ((window as any).YT?.Player) {
       resolve()
       return
     }
     // Chain on any existing callback so we don't overwrite another instance
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const prev = (window as any).onYouTubeIframeAPIReady as (() => void) | undefined
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       ; (window as any).onYouTubeIframeAPIReady = () => {
         prev?.()
         resolve()
@@ -71,7 +68,6 @@ function loadYouTubeApi(): Promise<void> {
 // ---------------------------------------------------------------------------
 function YouTubeAudioPlayer({ videoId }: { videoId: string }) {
   const containerRef = useRef<HTMLDivElement>(null)
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const playerRef = useRef<any>(null)
   const [playing, setPlaying] = useState(false)
   const [ready, setReady] = useState(false)
@@ -81,13 +77,11 @@ function YouTubeAudioPlayer({ videoId }: { videoId: string }) {
 
     loadYouTubeApi().then(() => {
       if (destroyed || !containerRef.current) return
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       playerRef.current = new (window as any).YT.Player(containerRef.current, {
         videoId,
         playerVars: { autoplay: 0, controls: 0, rel: 0, modestbranding: 1 },
         events: {
           onReady: () => { if (!destroyed) setReady(true) },
-          // eslint-disable-next-line @typescript-eslint/no-explicit-any
           onStateChange: (e: any) => {
             if (!destroyed) setPlaying(e.data === 1 || e.data === 3)
           },

@@ -1,5 +1,4 @@
-import type { Question, QuizConfig } from '@/types/quiz'
-import { STORAGE_KEYS } from '@/types/quiz'
+import { Question, QuizConfig, STORAGE_KEYS } from '@/types/quiz'
 import { Button, Container, Group, Paper, SimpleGrid, Stack, Text, Title } from '@mantine/core'
 import { useHotkeys } from '@mantine/hooks'
 import Link from 'next/link'
@@ -53,7 +52,7 @@ export default function JeopardyBoard({ config }: JeopardyBoardProps) {
         // ignore malformed data
       }
     }
-  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+  }, [])
 
   useEffect(() => {
     localStorage.setItem(STORAGE_KEYS.scores, JSON.stringify(scores))
