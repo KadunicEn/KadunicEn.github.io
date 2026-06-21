@@ -224,8 +224,7 @@ export default function Setup() {
             <a href="/questions.json" target="_blank" rel="noopener noreferrer">
               Jeopardy-Format
             </a>{' '}
-            entsprechen. Medien-URLs können relative Pfade (für Dateien auf diesem Server) oder
-            absolute HTTPS-URLs sein.
+            entsprechen. Für Videos und Audios einfach einen YouTube-Link verwenden. Für Bilder den Link zum Bild. Wichtig ist es in der JSON immer den korrekten Typen anzugeben.
           </Text>
 
           <Group>
