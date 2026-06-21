@@ -1,5 +1,5 @@
-import JeopardyFlexbox from '@/components/JeopardyFlexBox/JeopardyFlexBox'
+import Setup from '@/components/Setup/Setup'
 
 export default function HomePage() {
-  return <JeopardyFlexbox />
+  return <Setup />
 }
